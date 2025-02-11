@@ -5,7 +5,6 @@
 #     The frequency of a letter x is the number of times it occurs in the string.
 #     You must remove exactly one letter and cannot choose to do nothing.
 
-
 # https://leetcode.com/problems/remove-letter-to-equalize-frequency
 
 class Solution(object):
