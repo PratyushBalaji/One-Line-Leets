@@ -8,3 +8,5 @@
 class Solution(object):
     def hasTrailingZeros(self, nums):
         return len(filter(lambda x:x%2==0,nums)) >= 2
+    
+# Beats 100% in Runtime!
