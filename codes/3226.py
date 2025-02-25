@@ -6,4 +6,7 @@
 
 class Solution(object):
     def minChanges(self, n, k):
-        return str(bin(n^k)).count('1') if n - (n&k) - (n^k) == k - (n&k) else 0 if n == k else -1
+        # return str(bin(n^k)).count('1') if n - (n&k) - (n^k) == k - (n&k) else 0 if n == k else -1
+        return str(bin(n^k)).count('1') if n - (n^k) == k else -1
+    
+# Beats 100% in runtime and memory!
