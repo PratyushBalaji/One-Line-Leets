@@ -9,4 +9,4 @@
 
 class Solution(object):
     def divisorGame(self, n):
-        return n%2==0
+        return n%2<1
