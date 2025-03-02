@@ -10,3 +10,5 @@
 class Solution(object):
     def divisorGame(self, n):
         return n%2<1
+    
+# Original : return n%2==0
