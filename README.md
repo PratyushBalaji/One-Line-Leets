@@ -82,92 +82,103 @@ Alternatively, the lambda argument could've been written like so : `(([i for i i
 
 The latter, unoptimised approach is what I've used in the past for numerous questions (such as #3438 - Find Valid Pair of Adjacent Digits in String).
 
-## Solved and Explained Problems : 
-| Number | Solved | Explained |
-|--------|--------|-----------|
-| 0067   | ✅     | ❌        |
-| 0169   | ✅     | ❌        |
-| 0190   | ✅     | ❌        |
-| 0191   | ✅     | ❌        |
-| 0229   | ✅     | ❌        |
-| 0268   | ✅     | ❌        |
-| 0338   | ✅     | ❌        |
-| 0372   | ✅     | ❌        |
-| 0412   | ✅     | ❌        |
-| 0434   | ✅     | ❌        |
-| 0476   | ✅     | ❌        |
-| 0551   | ✅     | ❌        |
-| 0575   | ✅     | ❌        |
-| 0648   | ✅     | ❌        |
-| 0680   | ✅     | ❌        |
-| 0693   | ✅     | ❌        |
-| 0821   | ✅     | ❌        |
-| 0898   | ✅     | ❌        |
-| 0922   | ✅     | ❌        |
-| 0977   | ✅     | ❌        |
-| 0989   | ✅     | ❌        |
-| 1009   | ✅     | ❌        |
-| 1025   | ✅     | ❌        |
-| 1266   | ✅     | ❌        |
-| 1295   | ✅     | ❌        |
-| 1317   | ✅     | ❌        |
-| 1365   | ✅     | ❌        |
-| 1374   | ✅     | ❌        |
-| 1460   | ✅     | ❌        |
-| 1486   | ✅     | ❌        |
-| 1704   | ✅     | ❌        |
-| 1752   | ✅     | ❌        |
-| 1790   | ✅     | ❌        |
-| 1805   | ✅     | ✅        |
-| 1812   | ✅     | ❌        |
-| 1835   | ✅     | ❌        |
-| 1876   | ✅     | ❌        |
-| 1952   | ✅     | ❌        |
-| 1980   | ✅     | ❌        |
-| 2000   | ✅     | ❌        |
-| 2006   | ✅     | ❌        |
-| 2032   | ✅     | ❌        |
-| 2057   | ✅     | ❌        |
-| 2089   | ✅     | ❌        |
-| 2108   | ✅     | ❌        |
-| 2114   | ✅     | ❌        |
-| 2161   | ✅     | ❌        |
-| 2185   | ✅     | ❌        |
-| 2206   | ✅     | ❌        |
-| 2239   | ✅     | ❌        |
-| 2248   | ✅     | ❌        |
-| 2255   | ✅     | ❌        |
-| 2259   | ✅     | ❌        |
-| 2364   | ✅     | ❌        |
-| 2418   | ✅     | ❌        |
-| 2423   | ✅     | ❌        |
-| 2455   | ✅     | ❌        |
-| 2491   | ✅     | ❌        |
-| 2535   | ✅     | ❌        |
-| 2549   | ✅     | ❌        |
-| 2553   | ✅     | ❌        |
-| 2570   | ✅     | ❌        |
-| 2579   | ✅     | ❌        |
-| 2651   | ✅     | ❌        |
-| 2652   | ✅     | ❌        |
-| 2656   | ✅     | ❌        |
-| 2678   | ✅     | ❌        |
-| 2710   | ✅     | ❌        |
-| 2716   | ✅     | ❌        |
-| 2788   | ✅     | ❌        |
-| 2798   | ✅     | ❌        |
-| 2828   | ✅     | ❌        |
-| 2864   | ✅     | ❌        |
-| 2932   | ✅     | ❌        |
-| 2980   | ✅     | ❌        |
-| 3019   | ✅     | ❌        |
-| 3042   | ✅     | ❌        |
-| 3079   | ✅     | ❌        |
-| 3083   | ✅     | ❌        |
-| 3110   | ✅     | ❌        |
-| 3136   | ✅     | ❌        |
-| 3151   | ✅     | ❌        |
-| 3226   | ✅     | ❌        |
-| 3340   | ✅     | ❌        |
-| 3438   | ✅     | ❌        |
-| 3442   | ✅     | ❌        |
+## Problems You'll Find in this Repository : 
+
+Below is a table indicating problems I've solved and explained in one line out of all the files I've uploaded to this repository. The problem title is a link to the problem for you to try it out yourself.
+
+Solutions can be found under `codes/` named `<problem-number>.py` and explanations under `explanations/` named `<problem-number>.md`
+
+**Legend :**
+- ✅ Complete
+- ❌ Incomplete
+- ⏱️ Time Limit Exceeded
+- 💥 Memory Limit Exceeded
+
+| Problem Number | Problem Title                                                                                   | Solved | Explained |
+|--------|---------------------------------------------------------------------------------------------------------|--------|-----------|
+| 0067   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                 | ✅     | ❌       |
+| 0169   | [Majority Element](https://leetcode.com/problems/majority-element/)                                     | ✅     | ❌       |
+| 0190   | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                             | ✅     | ❌       |
+| 0191   | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                     | ✅     | ❌       |
+| 0229   | [Majority Element II](https://leetcode.com/problems/majority-element-ii/)                               | ✅     | ❌       |
+| 0268   | [Missing Number](https://leetcode.com/problems/missing-number/)                                         | ✅     | ❌       |
+| 0338   | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                           | ✅     | ❌       |
+| 0372   | [Super Pow](https://leetcode.com/problems/super-pow/)                                                   | ✅     | ❌       |
+| 0412   | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz/)                                                   | ✅     | ❌       |
+| 0434   | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)         | ✅     | ❌       |
+| 0476   | [Number Complement](https://leetcode.com/problems/number-complement/)                                   | ✅     | ❌       |
+| 0551   | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)               | ✅     | ❌       |
+| 0575   | [Distribute Candies](https://leetcode.com/problems/distribute-candies/)                                 | ✅     | ❌       |
+| 0648   | [Replace Words](https://leetcode.com/problems/replace-words/)                                           | ✅     | ❌       |
+| 0680   | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                               | ✅     | ❌       |
+| 0693   | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/) | ✅     | ❌        |
+| 0821   | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)     | ✅     | ❌       |
+| 0898   | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)                     | ⏱️     | ❌       |
+| 0922   | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)                       | ✅     | ❌       |
+| 0977   | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)                   | ✅     | ❌       |
+| 0989   | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)             | ✅     | ❌       |
+| 1009   | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)           | ✅     | ❌       |
+| 1025   | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                             | ✅     | ❌       |
+| 1266   | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)     | ✅     | ❌       |
+| 1295   | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) | ✅     | ❌        |
+| 1317   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) | ✅     | ❌       |
+| 1365   | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) | ✅     | ❌       |
+| 1374   | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/) | ✅     | ❌       |
+| 1460   | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)         | ✅     | ❌       |
+| 1486   | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                   | ✅     | ❌       |
+| 1704   | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                           | ✅     | ❌       |
+| 1752   | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                           | ✅     | ❌       |
+| 1790   | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/)     | ✅     | ❌       |
+| 1805   | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)                   | ✅     | ✅       |
+| 1812   | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)                       | ✅     | ❌       |
+| 1835   | [Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)                         | ✅     | ❌       |
+| 1876   | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) | ✅     | ❌       |
+| 1952   | [Three Divisors](https://leetcode.com/problems/three-divisors/)                                         | ✅     | ❌       |
+| 1980   | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)                   | ✅     | ❌       |
+| 2000   | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                         | ✅     | ❌       |
+| 2006   | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)   | ✅     | ❌       |
+| 2032   | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)                                     | ✅     | ❌       |
+| 2057   | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)       | ✅     | ❌       |
+| 2089   | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)                     | ✅     | ❌       |
+| 2108   | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)               | ✅     | ❌       |
+| 2114   | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)               | ✅     | ❌       |
+| 2161   | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)                   | ✅     | ❌       |
+| 2185   | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) | ✅     | ❌       |
+| 2206   | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)           | ✅     | ❌       |
+| 2239   | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)               | ✅     | ❌       |
+| 2248   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       | ✅     | ❌       |
+| 2255   | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)     | ✅     | ❌       |
+| 2259   | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)             | ✅     | ❌       |
+| 2364   | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                   | 💥     | ❌       |
+| 2418   | [Sort the People](https://leetcode.com/problems/sort-the-people/)                                       | ✅     | ❌       |
+| 2423   | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                             | ✅     | ❌       |
+| 2455   | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) | ✅     | ❌        |
+| 2491   | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)                   | ✅     | ❌       |
+| 2535   | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) | ✅     | ❌        |
+| 2549   | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)       | ✅     | ❌       |
+| 2553   | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)       | ✅     | ❌       |
+| 2570   | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)                         | ✅     | ❌       |
+| 2579   | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)                             | ✅     | ❌       |
+| 2651   | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)         | ✅     | ❌       |
+| 2652   | [Sum Multiples](https://leetcode.com/problems/sum-multiples/)                                           | ✅     | ❌       |
+| 2656   | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)                             | ✅     | ❌       |
+| 2678   | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)                   | ✅     | ❌       |
+| 2710   | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)                             | ✅     | ❌       |
+| 2716   | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/)                         | ✅     | ❌       |
+| 2788   | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)                 | ✅     | ❌       |
+| 2798   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)                       | ✅     | ❌       |
+| 2828   | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)                   | ✅     | ❌       |
+| 2864   | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)                   | ✅     | ❌       |
+| 2932   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)                       | ✅     | ❌       |
+| 2980   | [Check if Bitwise OR has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)                       | ✅     | ❌       |
+| 3019   | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)                       | ✅     | ❌       |
+| 3042   | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)       | ✅     | ❌       |
+| 3079   | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) | ✅     | ❌       |
+| 3083   | [Existence of a Substring in a String and its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) | ✅     | ❌       |
+| 3110   | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                   | ✅     | ❌       |
+| 3136   | [Valid Word](https://leetcode.com/problems/valid-word)                                                  | ✅     | ❌       |
+| 3151   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       | ✅     | ❌       |
+| 3226   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/)   | ✅     | ❌       |
+| 3340   | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)                           | ✅     | ❌       |
+| 3438   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)                  | ✅     | ❌        |
+| 3442   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)                  | ✅     | ❌        |
