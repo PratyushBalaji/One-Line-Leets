@@ -175,7 +175,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3042](codes/3042.py)   | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)       |✅|❌|
 | [3079](codes/3079.py)   | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) |✅|❌|
 | [3083](codes/3083.py)   | [Existence of a Substring in a String and its Reverse](https://leetcode.com/problems/existence-of-a-substring-in-a-string-and-its-reverse/) |✅|❌|
-| [3110](codes/3110.py)   | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                   |✅|❌|
+| [3110](codes/3110.py)   | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                   |✅|✅|
 | [3136](codes/3136.py)   | [Valid Word](https://leetcode.com/problems/valid-word)                                                  |✅|❌|
 | [3151](codes/3151.py)   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       |✅|❌|
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
