@@ -6,3 +6,5 @@
 class Solution(object):
     def smallestEqual(self, nums):
         return ([i for i in range(len(nums)) if nums[i] == i%10]+[-1])[0]
+    
+# Beats 100% in runtime and memory
