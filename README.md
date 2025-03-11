@@ -138,12 +138,12 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2000](codes/2000.py)   | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                         |✅|❌|
 | [2006](codes/2006.py)   | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)   |✅|❌|
 | [2032](codes/2032.py)   | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)                                     |✅|❌|
-| [2057](codes/2057.py)   | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)       |✅|❌|
+| [2057](codes/2057.py)   | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)       |✅|✅|
 | [2089](codes/2089.py)   | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)            |✅|❌|
 | [2108](codes/2108.py)   | [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/)      |✅|❌|
 | [2114](codes/2114.py)   | [Maximum Number of Words Found in Sentences](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/)      |✅|❌|
 | [2161](codes/2161.py)   | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)          |✅|❌|
-| [2185](codes/2185.py)   | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) |✅|❌|
+| [2185](codes/2185.py)   | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) |✅|✅|
 | [2206](codes/2206.py)   | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)           |✅|❌|
 | [2239](codes/2239.py)   | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)               |✅|❌|
 | [2248](codes/2248.py)   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       |✅|❌|
