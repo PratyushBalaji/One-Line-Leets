@@ -116,12 +116,12 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0898](codes/0898.py)   | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)                     |⏱️|❌|
 | [0922](codes/0922.py)   | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)                       |✅|❌|
 | [0977](codes/0977.py)   | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)                   |✅|❌|
-| [0989](codes/0989.py)   | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)             |✅|❌|
+| [0989](codes/0989.py)   | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)             |✅|✅|
 | [1009](codes/1009.py)   | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)           |✅|❌|
 | [1025](codes/1025.py)   | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                             |✅|❌|
 | [1266](codes/1266.py)   | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)     |✅|❌|
 | [1295](codes/1295.py)   | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) |✅|❌ |
-| [1317](codes/1317.py)   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) |✅|❌|
+| [1317](codes/1317.py)   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) |✅|✅|
 | [1365](codes/1365.py)   | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |✅|❌ |
 | [1374](codes/1374.py)   | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|✅|❌|
 | [1460](codes/1460.py)   | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|✅|❌|
