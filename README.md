@@ -101,7 +101,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0190](codes/0190.py)   | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                             |✅|❌|
 | [0191](codes/0191.py)   | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                     |✅|✅|
 | [0229](codes/0229.py)   | [Majority Element II](https://leetcode.com/problems/majority-element-ii/)                               |✅|❌|
-| [0231](codes/0231.py)   | [Power of Two](https://leetcode.com/problems/power-of-two/)                                         |✅|❌|
+| [0231](codes/0231.py)   | [Power of Two](https://leetcode.com/problems/power-of-two/)                                             |✅|❌|
 | [0268](codes/0268.py)   | [Missing Number](https://leetcode.com/problems/missing-number/)                                         |✅|❌|
 | [0338](codes/0338.py)   | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                           |✅|❌|
 | [0372](codes/0372.py)   | [Super Pow](https://leetcode.com/problems/super-pow/)                                                   |✅|❌|
@@ -138,6 +138,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1980](codes/1980.py)   | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)                   |✅|❌|
 | [2000](codes/2000.py)   | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                         |✅|❌|
 | [2006](codes/2006.py)   | [Count Number of Pairs With Absolute Difference K](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/)   |✅|❌|
+| [2022](codes/2022.py)   | [Convert 1D Array Into 2D Array](https://leetcode.com/problems/convert-1d-array-into-2d-array/)         |✅|✅|
 | [2032](codes/2032.py)   | [Two Out of Three](https://leetcode.com/problems/two-out-of-three/)                                     |✅|❌|
 | [2057](codes/2057.py)   | [Smallest Index With Equal Value](https://leetcode.com/problems/smallest-index-with-equal-value/)       |✅|✅|
 | [2089](codes/2089.py)   | [Find Target Indices After Sorting Array](https://leetcode.com/problems/find-target-indices-after-sorting-array/)            |✅|❌|
@@ -182,4 +183,4 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
 | [3340](codes/3340.py)   | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)                           |✅|❌|
 | [3438](codes/3438.py)   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)  |✅|❌ |
-| [3442](codes/3442.py)   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/) |✅|❌ |
+| [3442](codes/3442.py)   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)      |✅|❌ |
