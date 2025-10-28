@@ -101,6 +101,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0190](codes/0190.py)   | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                             |✅|❌|
 | [0191](codes/0191.py)   | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                     |✅|✅|
 | [0229](codes/0229.py)   | [Majority Element II](https://leetcode.com/problems/majority-element-ii/)                               |✅|❌|
+| [0231](codes/0231.py)   | [Power of Two](https://leetcode.com/problems/power-of-two/)                                         |✅|❌|
 | [0268](codes/0268.py)   | [Missing Number](https://leetcode.com/problems/missing-number/)                                         |✅|❌|
 | [0338](codes/0338.py)   | [Counting Bits](https://leetcode.com/problems/counting-bits/)                                           |✅|❌|
 | [0372](codes/0372.py)   | [Super Pow](https://leetcode.com/problems/super-pow/)                                                   |✅|❌|
