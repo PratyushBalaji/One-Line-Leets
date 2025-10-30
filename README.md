@@ -2,7 +2,7 @@
 
 I like challenging myself to solve LeetCode problems in one single line. Code Golf : Line Edition
 
-This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions that could fit in just one return statement. I wasn't intetionally seeking out solutions that consisted of a single expression. However, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
+This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions. Solutions that could fit in just one return statement! I wasn't intentionally seeking out solutions that consisted of a single expression, however, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
 
 Goal : `[ "$(ls codes | wc -l)" -eq "$(grep -e "^ *return" codes/*.py | wc -l)" ] && echo "Equal" || echo "Not equal"` outputs "Equal"
 
