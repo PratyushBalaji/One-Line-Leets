@@ -182,5 +182,10 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3151](codes/3151.py)   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       |✅|❌|
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
 | [3340](codes/3340.py)   | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)                           |✅|❌|
-| [3438](codes/3438.py)   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)  |✅|❌ |
+| [3438](codes/3438.py)   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)  |✅|❌|
 | [3442](codes/3442.py)   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)      |✅|❌ |
+| [3683](codes/3683.py)   | [Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/)     |✅|❌|
+| [3684](codes/3684.py)   | [Maximize Sum of At Most k Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/)    |✅|❌|
+| [3688](codes/3688.py)   | [Bitwise Or of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)              |✅|❌|
+| [3689](codes/3689.py)   | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/)         |✅|❌|
+| [3692](codes/3692.py)   | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)           |✅|❌|
