@@ -2,7 +2,7 @@
 
 I like challenging myself to solve LeetCode problems in one single line. Code Golf : Line Edition
 
-This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions that could fit in just one return statement. I wasn't intetionally seeking out solutions that consisted of a single expression. However, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
+This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions. Solutions that could fit in just one return statement! I wasn't intentionally seeking out solutions that consisted of a single expression, however, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
 
 Goal : `[ "$(ls codes | wc -l)" -eq "$(grep -e "^ *return" codes/*.py | wc -l)" ] && echo "Equal" || echo "Not equal"` outputs "Equal"
 
@@ -11,11 +11,11 @@ Goal : `[ "$(ls codes | wc -l)" -eq "$(grep -e "^ *return" codes/*.py | wc -l)" 
 ## Rules : 
 - Code must be one single line (One expression)
 
-While `x=1; y=2; return x+y` is technically one line, for the spirit of the challenge this doesn't count as it is three "expressions"
+While `x=1; y=2; return x+y` is **technically** one line, for the spirit of the challenge it doesn't count as it is made up of three "expressions"
 
-However, while `return max(list(map(lambda pair: pair[0] ^ pair[1], filter(lambda pair: abs(pair[0]-pair[1]) <= min(pair[0],pair[1]), list(set([(nums[i], nums[j]) for i in range(len(nums)) for j in range(i, len(nums))]))))))` is a mouthful and a half, it is one single "expression". And so, it counts. (btw this is indeed a solution to [Problem #2932](https://leetcode.com/problems/maximum-strong-pair-xor-i/))
+On the other hand, while `return max(list(map(lambda pair: pair[0] ^ pair[1], filter(lambda pair: abs(pair[0]-pair[1]) <= min(pair[0],pair[1]), list(set([(nums[i], nums[j]) for i in range(len(nums)) for j in range(i, len(nums))]))))))` is a mouthful and a half with nine consecutive closing brackets at the end, it is one single "expression". And so, it counts. (by the way, this is indeed an valid solution to [Problem #2932](https://leetcode.com/problems/maximum-strong-pair-xor-i/))
 
-All solutions are titled by their corresponding problem number. File \<problem-number\>.py (`^[0-9]*.py$`) contains the problem description, a link to the problem, and my one line solution, sometimes with comments.
+All solutions are titled by their corresponding problem number. File \<problem-number\>.py (`^[0-9]{4}.py$`) contains the problem description, a link to the problem, and my one line solution, sometimes with comments.
 
 Disclaimer : These solutions are usually **extremely** inefficient. Sometimes they shine though.
 
@@ -52,7 +52,7 @@ Uses `reduce()` which works like `foldr`, accumulating results and iterating thr
 ### Problem [#1790](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal) - Check if One String Swap Can Make Strings Equal
 `return (lambda ret: False if (len(s1) != len(s2)) or (len(ret) not in {0,2}) else len(ret) == 0 or (s1[ret[0]] == s2[ret[1]] and s1[ret[1]] == s2[ret[0]]))((lambda x, y: [i for i in range(len(x)) if x[i] != y[i]])(s1, s2))`
 
-Stacks lambda functions and assigns a larger lambda call to `ret`, using its lambda nature to avoid recomputation while keeping the solution concise. First solution where I discovered the power of using a lambda function to "store" and use variables in my One-Line-Leets
+Stacks lambda functions and assigns a larger lambda call to `ret`, avoiding recomputation while keeping the solution concise. First solution where I discovered the power of using a lambda function to "store" and use variables in my One-Line-Leets
 
 ### Problem [#3226](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal) - Number of Bit Changes to Make Two Integers Equal
 Original solution : `return str(bin(n^k)).count('1') if n - (n&k) - (n^k) == k - (n&k) else 0 if n == k else -1`
@@ -80,13 +80,13 @@ It then passes said index (or 0 if none are found) into a lambda expression, whi
 
 Alternatively, the lambda argument could've been written like so : `(([i for i in range(1, len(nums)) if nums[i] < nums[i-1]] + [0])[0])`. But this would have to traverse the whole array and find indices where it starts decreasing. The generator and `next` allow for lazy evaluation, removing the need to traverse the entire array by breaking at the first match, making the algorithm faster overall.
 
-The latter, unoptimised approach is what I've used in the past for numerous questions (such as #3438 - Find Valid Pair of Adjacent Digits in String).
+The latter, unoptimised approach is what I've used in the past for numerous questions (such as #3438 - Find Valid Pair of Adjacent Digits in String), but using generators and next() is a lot cleaner and more performant
 
 ## Problems You'll Find in this Repository : 
 
 Below is a table indicating problems I've solved and explained in one line out of all the files I've uploaded to this repository. The problem title is a link to the problem for you to try it out yourself.
 
-My solutions can be found under `codes/` named `<problem-number>.py` or by clicking on "Problem Number" below, and explanations under `explanations/` named `<problem-number>.md`
+My solutions can be found under `codes/` named `<problem-number>.py` or by clicking on each "Problem Number" below. Explanations are under `explanations/` named `<problem-number>.md`.
 
 **Legend :**
 - ✅ Complete
@@ -189,4 +189,4 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3684](codes/3684.py)   | [Maximize Sum of At Most k Distinct Elements](https://leetcode.com/problems/maximize-sum-of-at-most-k-distinct-elements/)    |✅|❌|
 | [3688](codes/3688.py)   | [Bitwise Or of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)              |✅|❌|
 | [3689](codes/3689.py)   | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/)         |✅|❌|
-| [3692](codes/3692.py)   | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)           |✅|❌|
+| [3692](codes/3692.py)   | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)           |✅|✅|
