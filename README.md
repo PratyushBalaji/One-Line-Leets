@@ -97,6 +97,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | Problem Number          | Problem Title (Leetcode Redirect)                                                                       | Solved | Explained |
 |-------------------------|---------------------------------------------------------------------------------------------------------|--|---|
 | [0067](codes/0067.py)   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                 |✅|❌|
+| [0108](codes/0108.py)   | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)     |✅|❌|
 | [0169](codes/0169.py)   | [Majority Element](https://leetcode.com/problems/majority-element/)                                     |✅|❌|
 | [0190](codes/0190.py)   | [Reverse Bits](https://leetcode.com/problems/reverse-bits/)                                             |✅|❌|
 | [0191](codes/0191.py)   | [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)                                     |✅|✅|
