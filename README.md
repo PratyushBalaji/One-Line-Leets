@@ -131,7 +131,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1704](codes/1704.py)   | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                  |✅|❌|
 | [1752](codes/1752.py)   | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                  |✅|❌|
 | [1790](codes/1790.py)   | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) |✅|❌|
-| [1805](codes/1805.py)   | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)          | ✅ | ✅   |
+| [1805](codes/1805.py)   | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)          |✅|✅|
 | [1812](codes/1812.py)   | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)              |✅|❌|
 | [1835](codes/1835.py)   | [Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)                |✅|❌|
 | [1876](codes/1876.py)   | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) |✅|❌|
@@ -152,7 +152,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2248](codes/2248.py)   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       |✅|❌|
 | [2255](codes/2255.py)   | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)     |✅|❌|
 | [2259](codes/2259.py)   | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)    |✅|❌|
-| [2364](codes/2364.py)   | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                   | 💥   |❌|
+| [2364](codes/2364.py)   | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                   |💥|❌|
 | [2418](codes/2418.py)   | [Sort the People](https://leetcode.com/problems/sort-the-people/)                                       |✅|❌|
 | [2423](codes/2423.py)   | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                    |✅|❌|
 | [2455](codes/2455.py)   | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) |✅|❌|
@@ -183,6 +183,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3151](codes/3151.py)   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       |✅|❌|
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
 | [3227](codes/3227.py)   | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)                       |✅|✅|
+| [3289](codes/3289.py)   | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)                  |✅|❌|
 | [3340](codes/3340.py)   | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)                           |✅|❌|
 | [3438](codes/3438.py)   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)  |✅|❌|
 | [3442](codes/3442.py)   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)      |✅|❌ |
