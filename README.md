@@ -150,6 +150,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2185](codes/2185.py)   | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) |✅|✅|
 | [2206](codes/2206.py)   | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)           |✅|❌|
 | [2239](codes/2239.py)   | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)               |✅|❌|
+| [2240](codes/2240.py)   | [Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)              |✅|❌|
 | [2248](codes/2248.py)   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       |✅|❌|
 | [2255](codes/2255.py)   | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)     |✅|❌|
 | [2259](codes/2259.py)   | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)    |✅|❌|
