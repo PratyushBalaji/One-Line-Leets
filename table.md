@@ -33,6 +33,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0680](codes/0680.py)   | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                               |✅|❌|
 | [0693](codes/0693.py)   | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|✅|❌|
 | [0821](codes/0821.py)   | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)     |✅|❌|
+| [0866](codes/0866.py)   | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome)                                      |✅|❌|
 | [0898](codes/0898.py)   | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)                     |⏱️|❌|
 | [0922](codes/0922.py)   | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)                       |✅|❌|
 | [0977](codes/0977.py)   | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)                   |✅|❌|
