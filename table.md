@@ -113,3 +113,4 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3688](codes/3688.py)   | [Bitwise Or of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)              |✅|❌|
 | [3689](codes/3689.py)   | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/)         |✅|❌|
 | [3692](codes/3692.py)   | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)           |✅|✅|
+| [3726](codes/3726.py)   | [Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)             |✅|❌|
