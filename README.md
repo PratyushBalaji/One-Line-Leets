@@ -82,11 +82,11 @@ Alternatively, the lambda argument could've been written like so : `(([i for i i
 
 The latter, unoptimised approach is what I've used in the past for numerous questions (such as #3438 - Find Valid Pair of Adjacent Digits in String), but using generators and next() is a lot cleaner and more performant
 
-## Problems You'll Find in this Repository : 
+## What You'll Find in this Repository : 
 
 Below is a table indicating problems I've solved and explained in one line out of all the files I've uploaded to this repository. The problem title is a link to the problem for you to try it out yourself.
 
-My solutions can be found under `codes/` named `<problem-number>.py` or by clicking on each "Problem Number" below. Explanations are under `explanations/` named `<problem-number>.md`.
+My solutions can be found under `codes/` named `<problem-number>.py` or by clicking on each "Problem Number" below. Explanations if present are under `explanations/` named `<problem-number>.md`.
 
 **Legend :**
 - ✅ Complete
