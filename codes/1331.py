@@ -8,4 +8,4 @@
 
 class Solution(object):
     def arrayRankTransform(self, arr):
-        return (lambda dct: [dct[i] for i in arr])((lambda newarr: {i:j for i,j in newarr})(zip(sorted(list(set(arr))),range(1,1+len(set(arr))))))
+        return (lambda dct: [dct[i] for i in arr])((lambda newarr: {j:i+1 for i,j in enumerate(newarr)})(sorted(list(set(arr)))))
