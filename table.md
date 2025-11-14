@@ -43,7 +43,8 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1025](codes/1025.py)   | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                             |✅|❌|
 | [1266](codes/1266.py)   | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)     |✅|❌|
 | [1295](codes/1295.py)   | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) |✅|❌ |
-| [1317](codes/1317.py)   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/) |✅|✅|
+| [1317](codes/1317.py)   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|✅|✅|
+| [1331](codes/1331.py)   | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)                 |✅|❌|
 | [1365](codes/1365.py)   | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |✅|❌ |
 | [1374](codes/1374.py)   | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|✅|❌|
 | [1423](codes/1423.py)   | [Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)          |✅|❌|
