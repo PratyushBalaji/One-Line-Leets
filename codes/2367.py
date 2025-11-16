@@ -7,6 +7,7 @@
 
 # https://leetcode.com/problems/number-of-arithmetic-triplets/
 
+# Beats 100% in runtime and memory!
 class Solution(object):
     def arithmeticTriplets(self, nums, diff):
-        return sum(1 for i in range(len(nums)-2) for j in range(i+1,len(nums)-1) for k in range(j+1,len(nums)) if nums[j] - nums[i] == nums[k] - nums[j] == diff)
+        return (lambda numset: sum([1 for i in numset if i+diff in numset and i+diff+diff in numset]))(set(nums))
