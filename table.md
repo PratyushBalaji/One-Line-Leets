@@ -76,6 +76,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2248](codes/2248.py)   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       |✅|❌|
 | [2255](codes/2255.py)   | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/)     |✅|❌|
 | [2259](codes/2259.py)   | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/)    |✅|❌|
+| [2331](codes/2331.py)   | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)             |✅|❌|
 | [2364](codes/2364.py)   | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                   |💥|❌|
 | [2418](codes/2418.py)   | [Sort the People](https://leetcode.com/problems/sort-the-people/)                                       |✅|❌|
 | [2423](codes/2423.py)   | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                    |✅|❌|
