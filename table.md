@@ -37,6 +37,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0866](codes/0866.py)   | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome)                                      |✅|❌|
 | [0898](codes/0898.py)   | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)                     |⏱️|❌|
 | [0922](codes/0922.py)   | [Sort Array By Parity II](https://leetcode.com/problems/sort-array-by-parity-ii/)                       |✅|❌|
+| [0961](codes/0961.py)   | [N-Repeated Element in Size 2N Array](https://leetcode.com/problems/n-repeated-element-in-size-2n-array/)|✅|❌|
 | [0977](codes/0977.py)   | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/)                   |✅|❌|
 | [0989](codes/0989.py)   | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)             |✅|✅|
 | [1009](codes/1009.py)   | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)           |✅|❌|
