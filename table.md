@@ -89,6 +89,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2652](codes/2652.py)   | [Sum Multiples](https://leetcode.com/problems/sum-multiples/)                                           |✅|❌|
 | [2656](codes/2656.py)   | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)                    |✅|❌|
 | [2678](codes/2678.py)   | [Number of Senior Citizens](https://leetcode.com/problems/number-of-senior-citizens/)                   |✅|❌|
+| [2708](codes/2708.py)   | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/)               |✅|❌|
 | [2710](codes/2710.py)   | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)                    |✅|❌|
 | [2716](codes/2716.py)   | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/)                         |✅|❌|
 | [2788](codes/2788.py)   | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)                 |✅|❌|
