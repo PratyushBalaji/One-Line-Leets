@@ -79,6 +79,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2331](codes/2331.py)   | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/)             |✅|❌|
 | [2364](codes/2364.py)   | [Count Number of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/)                   |💥|❌|
 | [2367](codes/2367.py)   | [Number of Arithmetic Triplets](https://leetcode.com/problems/number-of-arithmetic-triplets/)           |✅|❌|
+| [2389](codes/2389.py)   | [Longest Subsequence with Limited Sum](https://leetcode.com/problems/longest-subsequence-with-limited-sum/)|✅|❌|
 | [2418](codes/2418.py)   | [Sort the People](https://leetcode.com/problems/sort-the-people/)                                       |✅|❌|
 | [2423](codes/2423.py)   | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                    |✅|❌|
 | [2455](codes/2455.py)   | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) |✅|❌|
