@@ -106,6 +106,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3110](codes/3110.py)   | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                   |✅|✅|
 | [3136](codes/3136.py)   | [Valid Word](https://leetcode.com/problems/valid-word)                                                  |✅|❌|
 | [3151](codes/3151.py)   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       |✅|❌|
+| [3216](codes/3216.py)   | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)|✅|❌|
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
 | [3227](codes/3227.py)   | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)                       |✅|✅|
 | [3289](codes/3289.py)   | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)                  |✅|❌|
