@@ -8,13 +8,9 @@ Metric : Convert all variable (and parameter) names to single characters, remove
 Yes, the code logic itself could be made longer (or *shorter?*) to artificially modify the result, but I'll try not to intentionally write extremely long code :P
 
 ### Shortest Solution : 
-[#1025](https://leetcode.com/problems/divisor-game/) `divisorGame(self, n)` : ~~13~~ 12 Characters
+[#1025](https://leetcode.com/problems/divisor-game/) `divisorGame(self, n)` : 12 Characters
 
-Original : `return n%2==0`
-
-~~This can even be made one character shorter in C like so :~~ `return ~n&1;` ~~. Unlike C, 0 and 1 aren't considered "boolean types" in Python, so this won't work as a Python solution. All non-zero integers are treated as True and zero, False when used in a boolean expression, but alone, they are integers. LeetCode explicitly requires a boolean returned for this question.~~
-
-New : `return n%2<1`
+`return n%2<1`
 
 ### Longest Solution : 
 [#2423](https://leetcode.com/problems/remove-letter-to-equalize-frequency) `equalFrequency(self, w)` : 265 Characters
