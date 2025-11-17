@@ -13,6 +13,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [0268](codes/0268.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0898](codes/0898.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0922](codes/0922.py) | <= 2.7              | `reduce()` | `functools`  |
+| [1221](codes/1221.py) | >= 3.2              | `accumulate()` | No Alternative  |
 | [1423](codes/1423.py) | >= 3.8              | `:=`       | No Alternative |
 | [1486](codes/1486.py) | <= 2.7              | `reduce()` | `functools`  |
 | [1835](codes/1835.py) | <= 2.7              | `reduce()` | `functools`  |
