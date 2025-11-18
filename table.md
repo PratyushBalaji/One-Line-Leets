@@ -56,6 +56,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1566](codes/1566.py)   | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)   |✅|❌|
 | [1704](codes/1704.py)   | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                  |✅|❌|
 | [1752](codes/1752.py)   | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                  |✅|❌|
+| [1763](codes/1763.py)   | [Longest Nice Substring]( https://leetcode.com/problems/longest-nice-substring/)                        |✅|❌|
 | [1790](codes/1790.py)   | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) |✅|❌|
 | [1805](codes/1805.py)   | [Number of Different Integers in a String](https://leetcode.com/problems/number-of-different-integers-in-a-string/)          |✅|✅|
 | [1812](codes/1812.py)   | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)              |✅|❌|
