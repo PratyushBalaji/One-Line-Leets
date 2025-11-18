@@ -53,6 +53,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1423](codes/1423.py)   | [Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)          |✅|❌|
 | [1460](codes/1460.py)   | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|✅|❌|
 | [1486](codes/1486.py)   | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                   |✅|❌|
+| [1566](codes/1566.py)   | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)   |✅|❌|
 | [1704](codes/1704.py)   | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                  |✅|❌|
 | [1752](codes/1752.py)   | [Check if Array Is Sorted and Rotated](https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/)                  |✅|❌|
 | [1790](codes/1790.py)   | [Check if One String Swap Can Make Strings Equal](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal/) |✅|❌|
