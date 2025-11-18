@@ -88,6 +88,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2423](codes/2423.py)   | [Remove Letter To Equalize Frequency](https://leetcode.com/problems/remove-letter-to-equalize-frequency/)                    |✅|❌|
 | [2455](codes/2455.py)   | [Average Value of Even Numbers That Are Divisible by Three](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three/) |✅|❌|
 | [2491](codes/2491.py)   | [Divide Players Into Teams of Equal Skill](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/)          |✅|❌|
+| [2527](codes/2527.py)   | [Find XOR-Beauty of Array](https://leetcode.com/problems/find-xor-beauty-of-array/)                     |✅|❌|
 | [2535](codes/2535.py)   | [Difference Between Element Sum and Digit Sum of an Array](https://leetcode.com/problems/difference-between-element-sum-and-digit-sum-of-an-array/) |✅|❌|
 | [2549](codes/2549.py)   | [Count Distinct Numbers on Board](https://leetcode.com/problems/count-distinct-numbers-on-board/)       |✅|❌|
 | [2553](codes/2553.py)   | [Separate the Digits in an Array](https://leetcode.com/problems/separate-the-digits-in-an-array/)       |✅|❌|

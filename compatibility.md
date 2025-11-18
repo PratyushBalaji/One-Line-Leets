@@ -18,6 +18,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [1486](codes/1486.py) | <= 2.7              | `reduce()` | `functools`  |
 | [1835](codes/1835.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2248](codes/2248.py) | <= 2.7              | `reduce()` | `functools`  |
+| [2527](codes/2527.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2708](codes/2708.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2788](codes/2788.py) | <= 2.7              | `reduce()` | `functools`  |
 | [3622](codes/3622.py) | <= 2.7              | `reduce()` | `functools`  |
