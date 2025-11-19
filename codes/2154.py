@@ -1,0 +1,14 @@
+# You are given an array of integers nums. 
+# You are also given an integer original which is the first number that needs to be searched for in nums.
+# You then do the following steps:
+#     If original is found in nums, multiply it by two (i.e., set original = 2 * original).
+#     Otherwise, stop the process.
+#     Repeat this process with the new number as long as you keep finding the number.
+# Return the final value of original.
+
+# https://leetcode.com/problems/keep-multiplying-found-values-by-two/
+
+# Beats 100% in runtime!
+class Solution(object):
+    def findFinalValue(self, nums, original):
+        return next(original<<i for i in range(len(nums)+1) if original<<i not in nums)
