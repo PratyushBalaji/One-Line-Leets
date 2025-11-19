@@ -63,6 +63,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1812](codes/1812.py)   | [Determine Color of a Chessboard Square](https://leetcode.com/problems/determine-color-of-a-chessboard-square/)              |✅|❌|
 | [1835](codes/1835.py)   | [Find XOR Sum of All Pairs Bitwise AND](https://leetcode.com/problems/find-xor-sum-of-all-pairs-bitwise-and/)                |✅|❌|
 | [1876](codes/1876.py)   | [Substrings of Size Three with Distinct Characters](https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/) |✅|❌|
+| [1922](codes/1922.py)   | [Count Good Numbers](https://leetcode.com/problems/count-good-numbers/)                                 |✅|❌|
 | [1952](codes/1952.py)   | [Three Divisors](https://leetcode.com/problems/three-divisors/)                                         |✅|❌|
 | [1980](codes/1980.py)   | [Find Unique Binary String](https://leetcode.com/problems/find-unique-binary-string/)                   |✅|❌|
 | [2000](codes/2000.py)   | [Reverse Prefix of Word](https://leetcode.com/problems/reverse-prefix-of-word/)                         |✅|❌|
