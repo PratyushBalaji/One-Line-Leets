@@ -114,6 +114,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2932](codes/2932.py)   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)              |✅|❌|
 | [2980](codes/2980.py)   | [Check if Bitwise OR has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)              |✅|❌|
 | [3019](codes/3019.py)   | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)                       |✅|❌|
+| [3024](codes/3024.py)   | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/)                                     |✅|❌|
 | [3028](codes/3028.py)   | [Ant on the Boundary](https://leetcode.com/problems/ant-on-the-boundary/)                               |✅|❌|
 | [3042](codes/3042.py)   | [Count Prefix and Suffix Pairs I](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/)       |✅|❌|
 | [3079](codes/3079.py)   | [Find the Sum of Encrypted Integers](https://leetcode.com/problems/find-the-sum-of-encrypted-integers/) |✅|❌|
