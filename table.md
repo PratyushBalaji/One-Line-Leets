@@ -106,6 +106,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2708](codes/2708.py)   | [Maximum Strength of a Group](https://leetcode.com/problems/maximum-strength-of-a-group/)               |✅|❌|
 | [2710](codes/2710.py)   | [Remove Trailing Zeros From a String](https://leetcode.com/problems/remove-trailing-zeros-from-a-string/)                    |✅|❌|
 | [2716](codes/2716.py)   | [Minimize String Length](https://leetcode.com/problems/minimize-string-length/)                         |✅|❌|
+| [2784](codes/2784.py)   | [CHeck if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)                         |✅|❌|
 | [2788](codes/2788.py)   | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)                 |✅|❌|
 | [2798](codes/2798.py)   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)              |✅|❌|
 | [2828](codes/2828.py)   | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)          |✅|❌|
