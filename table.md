@@ -128,6 +128,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3227](codes/3227.py)   | [Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/)                       |✅|✅|
 | [3289](codes/3289.py)   | [The Two Sneaky Numbers of Digitville](https://leetcode.com/problems/the-two-sneaky-numbers-of-digitville/)                  |✅|❌|
 | [3340](codes/3340.py)   | [Check Balanced String](https://leetcode.com/problems/check-balanced-string/)                           |✅|❌|
+| [3392](codes/3392.py)   | [Count Subarrays of Length Three with a Condition](https://leetcode.com/problems/count-subarrays-of-length-three-with-a-condition/) |✅|❌|
 | [3438](codes/3438.py)   | [Find Valid Pair of Adjacent Digits in String](https://leetcode.com/problems/find-valid-pair-of-adjacent-digits-in-string/)  |✅|❌|
 | [3442](codes/3442.py)   | [Maximum Difference Between Even and Odd Frequency](https://leetcode.com/problems/maximum-difference-between-even-and-odd-frequency-i/)      |✅|❌ |
 | [3622](codes/3622.py)   | [Check Divisibility by Digit Sum and Product](https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/)    |✅|❌|
