@@ -48,6 +48,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1238](codes/1238.py)   | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|✅|❌|
 | [1266](codes/1266.py)   | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)     |✅|❌|
 | [1295](codes/1295.py)   | [Find Numbers with Even Number of Digits](https://leetcode.com/problems/find-numbers-with-even-number-of-digits/) |✅|❌ |
+| [1304](codes/1304.py)   | [Find N Unique Integers Sum up to Zero](https://leetcode.com/problems/find-n-unique-integers-sum-up-to-zero/) |✅|❌ |
 | [1317](codes/1317.py)   | [Convert Integer to the Sum of Two No-Zero Integers](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers/)|✅|✅|
 | [1331](codes/1331.py)   | [Rank Transform of an Array](https://leetcode.com/problems/rank-transform-of-an-array/)                 |✅|✅|
 | [1365](codes/1365.py)   | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |✅|❌ |
