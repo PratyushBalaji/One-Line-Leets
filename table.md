@@ -79,6 +79,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2161](codes/2161.py)   | [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/)          |✅|❌|
 | [2185](codes/2185.py)   | [Counting Words With a Given Prefix](https://leetcode.com/problems/counting-words-with-a-given-prefix/) |✅|✅|
 | [2206](codes/2206.py)   | [Divide Array Into Equal Pairs](https://leetcode.com/problems/divide-array-into-equal-pairs/)           |✅|❌|
+| [2210](codes/2210.py)   | [Count Hills and Valleys in an Array](https://leetcode.com/problems/count-hills-and-valleys-in-an-array/)|✅|❌|
 | [2239](codes/2239.py)   | [Find Closest Number to Zero](https://leetcode.com/problems/find-closest-number-to-zero/)               |✅|❌|
 | [2240](codes/2240.py)   | [Number of Ways to Buy Pens and Pencils](https://leetcode.com/problems/number-of-ways-to-buy-pens-and-pencils/)              |✅|❌|
 | [2248](codes/2248.py)   | [Intersection of Multiple Arrays](https://leetcode.com/problems/intersection-of-multiple-arrays/)       |✅|❌|
