@@ -5,12 +5,20 @@
 
 # https://leetcode.com/problems/binary-prefix-divisible-by-5/
 
-# Beats 100% in memory and cut time from O(n^2) to O(n)
+# Similar runtime and slightly worse memory to := but uses accumulate for better compatibility
+# O(n) time and O(n) memory
 class Solution:
     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
-        return (lambda num: [num%5==0 for i in nums if (num := (num<<1)|i) or True])(0)
+        return [num%5==0 for num in accumulate(nums, lambda x,y: (x<<1) | y)]
 
-# Older version for compatibility
+# Beats 100% in memory
+# O(n) time and O(n) memory
+# class Solution:
+#     def prefixesDivBy5(self, nums: List[int]) -> List[bool]:
+#         return (lambda num: [num%5==0 for i in nums if (num := (num<<1)|i) or True])(0)
+
+# Older version for full compatibility
+# O(n^2) time and O(n) memory
 # class Solution(object):
 #     def prefixesDivBy5(self, nums):
 #         return (lambda strnums: [int("".join(strnums[:i+1]),2) % 5 == 0 for i in range(len(nums))])(map(str,nums))
