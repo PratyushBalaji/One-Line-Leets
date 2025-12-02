@@ -43,6 +43,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0989](codes/0989.py)   | [Add to Array-Form of Integer](https://leetcode.com/problems/add-to-array-form-of-integer/)             |✅|✅|
 | [1008](codes/1008.py)   | [Construct Binary Search Tree from Preorder Traversal](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |✅|❌|
 | [1009](codes/1009.py)   | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)           |✅|❌|
+| [1018](codes/1018.py)   | [Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)             |✅|❌|
 | [1025](codes/1025.py)   | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                             |✅|❌|
 | [1221](codes/1221.py)   | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) |✅|❌|
 | [1238](codes/1238.py)   | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)|✅|❌|
