@@ -126,6 +126,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3110](codes/3110.py)   | [Score of a String](https://leetcode.com/problems/score-of-a-string/)                                   |✅|✅|
 | [3136](codes/3136.py)   | [Valid Word](https://leetcode.com/problems/valid-word)                                                  |✅|❌|
 | [3151](codes/3151.py)   | [Special Array I](https://leetcode.com/problems/special-array-i/)                                       |✅|❌|
+| [3168](codes/3168.py)   | [Minimum Number of Chairs in a Waiting Room](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room/)      |✅|❌|
 | [3190](codes/3190.py)   | [Find Minimum Operations to Make All Elements Divisible by Three](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three/) |✅|❌|
 | [3216](codes/3216.py)   | [Lexicographically Smallest String After a Swap](https://leetcode.com/problems/lexicographically-smallest-string-after-a-swap/)|✅|❌|
 | [3226](codes/3226.py)   | [Number of Bit Changes to Make Two Integers Equal](https://leetcode.com/problems/number-of-bit-changes-to-make-two-integers-equal/) |✅|❌|
