@@ -113,6 +113,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2784](codes/2784.py)   | [CHeck if Array is Good](https://leetcode.com/problems/check-if-array-is-good/)                         |✅|❌|
 | [2788](codes/2788.py)   | [Split Strings by Separator](https://leetcode.com/problems/split-strings-by-separator/)                 |✅|❌|
 | [2798](codes/2798.py)   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)              |✅|❌|
+| [2810](codes/2810.py)   | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)                                       |✅|❌|
 | [2828](codes/2828.py)   | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)          |✅|❌|
 | [2864](codes/2864.py)   | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)                   |✅|✅|
 | [2932](codes/2932.py)   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)              |✅|❌|
