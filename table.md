@@ -16,6 +16,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 |-------------------------|---------------------------------------------------------------------------------------------------------|--|---|
 | [0067](codes/0067.py)   | [Add Binary](https://leetcode.com/problems/add-binary/)                                                 |✅|❌|
 | [0094](codes/0094.py)   | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)           |✅|❌|
+| [0100](codes/0100.py)   | [Same Tree](https://leetcode.com/problems/same-tree/)                                                   |✅|❌|
 | [0104](codes/0104.py)   | [Maximum Depth of a Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)           |✅|❌|
 | [0108](codes/0108.py)   | [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)     |✅|❌|
 | [0169](codes/0169.py)   | [Majority Element](https://leetcode.com/problems/majority-element/)                                     |✅|❌|
