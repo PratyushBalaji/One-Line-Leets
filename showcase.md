@@ -57,4 +57,6 @@ It then passes said index (or 0 if none are found) into a lambda expression, whi
 
 Alternatively, the lambda argument could've been written like so : `(([i for i in range(1, len(nums)) if nums[i] < nums[i-1]] + [0])[0])`. But this would have to traverse the whole array and find indices where it starts decreasing. The generator and `next` allow for lazy evaluation, removing the need to traverse the entire array by breaking at the first match, making the algorithm faster overall.
 
-The latter, unoptimised approach is what I've used in the past for numerous questions (such as [#3438 - Find Valid Pair of Adjacent Digits in String](./codes/3438.py)), but using generators and next() is a lot cleaner and more performant
+The latter, unoptimised approach is what I've used in the past for numerous questions (such as [#3438 - Find Valid Pair of Adjacent Digits in String](./codes/3438.py)), but using generators and next() is a lot cleaner and more performant.
+
+In general, constructions of the form : `([... for ... in ...] + [<default>])[0]` can be turned into `next((... for ... in ...), <default>)`. It significantly improves performance when avg case computation << worst case (i.e. where it is possible to lazy eval / break early rather than compute the whole list).
