@@ -58,6 +58,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1365](codes/1365.py) | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/)                       | ✅      | ❌         |
 | [1374](codes/1374.py) | [Generate a String with Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)                   | ✅      | ❌         |
 | [1423](codes/1423.py) | [Maximum Points You Can Obtain from Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)                                               | ✅      | ❌         |
+| [1424](codes/1424.py) | [Diagonal Traverse II](https://leetcode.com/problems/diagonal-traverse-ii/)                                                                                       | ✅      | ❌         |
 | [1460](codes/1460.py) | [Make Two Arrays Equal by Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/)                                       | ✅      | ❌         |
 | [1486](codes/1486.py) | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                                                                             | ✅      | ❌         |
 | [1566](codes/1566.py) | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)                         | ✅      | ❌         |
