@@ -104,6 +104,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2570](codes/2570.py)   | [Merge Two 2D Arrays by Summing Values](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/)                |✅|❌|
 | [2579](codes/2579.py)   | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)                    |✅|❌|
 | [2582](codes/2582.py)   | [Pass The Pillow](https://leetcode.com/problems/pass-the-pillow/)                                       |✅|❌|
+| [2598](codes/2598.py)   | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) |✅|❌|
 | [2639](codes/2579.py)   | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)                    |✅|❌|
 | [2651](codes/2651.py)   | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)         |✅|❌|
 | [2652](codes/2652.py)   | [Sum Multiples](https://leetcode.com/problems/sum-multiples/)                                           |✅|❌|
