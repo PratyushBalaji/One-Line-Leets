@@ -48,6 +48,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1009](codes/1009.py) | [Complement of Base 10 Integer](https://leetcode.com/problems/complement-of-base-10-integer/)                                                                     | ✅      | ❌         |
 | [1018](codes/1018.py) | [Binary Prefix Divisible by 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/)                                                                       | ✅      | ❌         |
 | [1025](codes/1025.py) | [Divisor Game](https://leetcode.com/problems/divisor-game/)                                                                                                       | ✅      | ❌         |
+| [1072](codes/1072.py) | [Flip Columns for Maximum Number of Equal Rows](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows/)                                     | ✅      | ❌         |
 | [1221](codes/1221.py) | [Split a String in Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/)                                                           | ✅      | ❌         |
 | [1238](codes/1238.py) | [Circular Permutation in Binary Representation](https://leetcode.com/problems/circular-permutation-in-binary-representation/)                                     | ✅      | ❌         |
 | [1266](codes/1266.py) | [Minimum Time Visiting All Points](https://leetcode.com/problems/minimum-time-visiting-all-points/)                                                               | ✅      | ❌         |
