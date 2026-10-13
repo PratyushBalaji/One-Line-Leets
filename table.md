@@ -155,3 +155,4 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3726](codes/3726.py) | [Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)                                                  | ✅      | ❌         |
 | [3727](codes/3727.py) | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)                                                           | ✅      | ❌         |
 | [3954](codes/3954.py) | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/)                                                       | ✅      | ❌         |
+| [4000](codes/4000.py) | [Largest Integer with Given Digit Sum](https://leetcode.com/problems/largest-integer-with-given-digit-sum/)                                                       | ✅      | ❌         |
