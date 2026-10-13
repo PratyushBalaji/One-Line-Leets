@@ -29,6 +29,16 @@ To see a curated list of solutions that I want to showcase, including the longes
 
 To see a table with all the solutions and explanations currently in the repository, navigate to the [table.md](./table.md) file.
 
+### Automatic table updates
+
+After a push to `main` changes `codes/` or `explanations/`, GitHub Actions updates `table.md` and commits any changes as `github-actions[bot]`. You only need to commit the solution or explanation. The workflow can also be run manually from the Actions tab. Pull the bot's commit before your next local push.
+
+Keep the existing four-digit filenames and a `https://leetcode.com/problems/<slug>/` URL in each solution. Rows are sorted by problem number; explanation status comes from whether the corresponding Markdown file exists. Removing files updates or removes their rows too.
+
+Existing problem titles and solved statuses are preserved. New solution titles are inferred from the URL slug and default to ✅. To specify a result explicitly, add `# Status: AC`, `# Status: WA`, `# Status: TLE`, or `# Status: MLE` to the solution. This avoids mistaking comments about slower alternative solutions for the main solution's status. You can edit a generated title in the table to refine its capitalization. An explanation added before its solution uses its `# Solution N - Title` heading and is marked unsolved.
+
+Run `python scripts/update_table.py` to update the table locally, or `python -m unittest discover -s scripts -p 'test_*.py'` to test the generator. No extra packages or secrets are needed. The workflow requests `contents: write`; repository rules must permit the Actions bot to push to `main`.
+
 ## Compatibility
 
 Unfortunately, while the vast majority of solutions are compatible with all major versions of Python, there are a select few that use either new or obsolete syntax and therefore are version specific. To see a list of solutions that may be dependent on a specific version of Python, navigate to the [compatibility.md](./compatibility.md) file.

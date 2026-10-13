@@ -36,6 +36,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0648](codes/0648.py)   | [Replace Words](https://leetcode.com/problems/replace-words/)                                           |✅|❌|
 | [0680](codes/0680.py)   | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/)                               |✅|❌|
 | [0693](codes/0693.py)   | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/)|✅|❌|
+| [0775](codes/0775.py) | [Global And Local Inversions](https://leetcode.com/problems/global-and-local-inversions/) | ✅ | ❌ |
 | [0821](codes/0821.py)   | [Shortest Distance to a Character](https://leetcode.com/problems/shortest-distance-to-a-character/)     |✅|❌|
 | [0866](codes/0866.py)   | [Prime Palindrome](https://leetcode.com/problems/prime-palindrome)                                      |✅|❌|
 | [0898](codes/0898.py)   | [Bitwise ORs of Subarrays](https://leetcode.com/problems/bitwise-ors-of-subarrays/)                     |⏱️|❌|
@@ -57,7 +58,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [1365](codes/1365.py)   | [How Many Numbers Are Smaller Than the Current Number](https://leetcode.com/problems/how-many-numbers-are-smaller-than-the-current-number/) |✅|❌ |
 | [1374](codes/1374.py)   | [Generate a String With Characters That Have Odd Counts](https://leetcode.com/problems/generate-a-string-with-characters-that-have-odd-counts/)|✅|❌|
 | [1423](codes/1423.py)   | [Maximum Points You Can Obtain From Cards](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/)          |✅|❌|
-| [1460](codes/1460.py)   | [Make Two Arrays Equal by Reversing Sub-arrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)|✅|❌|
+| [1460](codes/1460.py) | [Make Two Arrays Equal By Reversing Subarrays](https://leetcode.com/problems/make-two-arrays-equal-by-reversing-subarrays/) | ✅ | ❌ |
 | [1486](codes/1486.py)   | [XOR Operation in an Array](https://leetcode.com/problems/xor-operation-in-an-array/)                   |✅|❌|
 | [1566](codes/1566.py)   | [Detect Pattern of Length M Repeated K or More Times](https://leetcode.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)   |✅|❌|
 | [1704](codes/1704.py)   | [Determine if String Halves Are Alike](https://leetcode.com/problems/determine-if-string-halves-are-alike/)                  |✅|❌|
@@ -105,7 +106,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2579](codes/2579.py)   | [Count Total Number of Colored Cells](https://leetcode.com/problems/count-total-number-of-colored-cells/)                    |✅|❌|
 | [2582](codes/2582.py)   | [Pass The Pillow](https://leetcode.com/problems/pass-the-pillow/)                                       |✅|❌|
 | [2598](codes/2598.py)   | [Smallest Missing Non-negative Integer After Operations](https://leetcode.com/problems/smallest-missing-non-negative-integer-after-operations/) |✅|❌|
-| [2639](codes/2579.py)   | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/)                    |✅|❌|
+| [2639](codes/2639.py) | [Find the Width of Columns of a Grid](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid/) | ✅ | ❌ |
 | [2651](codes/2651.py)   | [Calculate Delayed Arrival Time](https://leetcode.com/problems/calculate-delayed-arrival-time/)         |✅|❌|
 | [2652](codes/2652.py)   | [Sum Multiples](https://leetcode.com/problems/sum-multiples/)                                           |✅|❌|
 | [2656](codes/2656.py)   | [Maximum Sum With Exactly K Elements](https://leetcode.com/problems/maximum-sum-with-exactly-k-elements/)                    |✅|❌|
@@ -119,7 +120,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [2810](codes/2810.py)   | [Faulty Keyboard](https://leetcode.com/problems/faulty-keyboard/)                                       |✅|❌|
 | [2828](codes/2828.py)   | [Check if a String Is an Acronym of Words](https://leetcode.com/problems/check-if-a-string-is-an-acronym-of-words/)          |✅|❌|
 | [2864](codes/2864.py)   | [Maximum Odd Binary Number](https://leetcode.com/problems/maximum-odd-binary-number/)                   |✅|✅|
-| [2932](codes/2932.py)   | [Number of Employees Who Met the Target](https://leetcode.com/problems/number-of-employees-who-met-the-target/)              |✅|❌|
+| [2932](codes/2932.py) | [Maximum Strong Pair Xor I](https://leetcode.com/problems/maximum-strong-pair-xor-i/) | ✅ | ❌ |
 | [2980](codes/2980.py)   | [Check if Bitwise OR has Trailing Zeros](https://leetcode.com/problems/check-if-bitwise-or-has-trailing-zeros/)              |✅|❌|
 | [3019](codes/3019.py)   | [Number of Changing Keys](https://leetcode.com/problems/number-of-changing-keys/)                       |✅|❌|
 | [3024](codes/3024.py)   | [Type of Triangle](https://leetcode.com/problems/type-of-triangle/)                                     |✅|❌|
@@ -151,3 +152,4 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3692](codes/3692.py)   | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)           |✅|✅|
 | [3726](codes/3726.py)   | [Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)             |✅|❌|
 | [3727](codes/3727.py)   | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/) |✅|❌|
+| [3954](codes/3954.py) | [Sum Of Compatible Numbers In Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/) | ✅ | ❌ |

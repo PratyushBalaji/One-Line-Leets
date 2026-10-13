@@ -1,0 +1,65 @@
+name: Update problem table
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'codes/**'
+      - 'explanations/**'
+      - 'scripts/**'
+      - '.github/workflows/update-table.yml'
+  pull_request:
+    paths:
+      - 'scripts/**'
+      - '.github/workflows/update-table.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: update-table-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s scripts -p 'test_*.py'
+
+  update:
+    if: github.event_name != 'pull_request'
+    needs: test
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerate and commit the table
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          # Regenerate against the latest main if another push wins the race.
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git reset --hard origin/main
+            python scripts/update_table.py
+            git add table.md
+            if git diff --cached --quiet; then
+              exit 0
+            fi
+            git commit -m 'docs: update problem table'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+          done
+          exit 1
