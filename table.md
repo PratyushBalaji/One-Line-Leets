@@ -14,6 +14,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 
 | Problem Number        | Problem Title (Leetcode Redirect)                                                                                                                                 | Solved | Explained |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------ | --------- |
+| [0001](codes/0001.py) | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                                                                 | ✅      | ❌         |
 | [0067](codes/0067.py) | [Add Binary](https://leetcode.com/problems/add-binary/)                                                                                                           | ✅      | ❌         |
 | [0094](codes/0094.py) | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                                                     | ✅      | ❌         |
 | [0100](codes/0100.py) | [Same Tree](https://leetcode.com/problems/same-tree/)                                                                                                             | ✅      | ❌         |
