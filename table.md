@@ -152,6 +152,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [3688](codes/3688.py) | [Bitwise or of Even Numbers in an Array](https://leetcode.com/problems/bitwise-or-of-even-numbers-in-an-array/)                                                   | ✅      | ❌         |
 | [3689](codes/3689.py) | [Maximum Total Subarray Value I](https://leetcode.com/problems/maximum-total-subarray-value-i/)                                                                   | ✅      | ❌         |
 | [3692](codes/3692.py) | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/)                                                                     | ✅      | ✅         |
+| [3723](codes/3723.py) | [Maximize Sum of Squares of Digits](https://leetcode.com/problems/maximize-sum-of-squares-of-digits/)                                                             | ✅      | ❌         |
 | [3726](codes/3726.py) | [Remove Zeroes in Decimal Representation](https://leetcode.com/problems/remove-zeros-in-decimal-representation/)                                                  | ✅      | ❌         |
 | [3727](codes/3727.py) | [Maximum Alternating Sum of Squares](https://leetcode.com/problems/maximum-alternating-sum-of-squares/)                                                           | ✅      | ❌         |
 | [3954](codes/3954.py) | [Sum of Compatible Numbers in Range I](https://leetcode.com/problems/sum-of-compatible-numbers-in-range-i/)                                                       | ✅      | ❌         |
