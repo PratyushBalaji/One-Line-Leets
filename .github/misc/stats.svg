@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="266" viewBox="0 0 1000 266" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">147 of 4082 solved. Easy 120/971, Medium 26/2128, Hard 1/983. 12 explained.</desc>
+<desc id="desc">148 of 4082 solved. Easy 121/971, Medium 26/2128, Hard 1/983. 12 explained.</desc>
 <rect width="1000" height="266" rx="14" fill="#262626"/>
 <g transform="translate(-28 17) scale(0.85)">
 <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
 <path d="M 145.047 217.953 A 106 106 0 0 1 137.623 76.292" fill="none" stroke="#234747" stroke-width="7" stroke-linecap="round"/>
-<path d="M 145.047 217.953 A 106 106 0 0 1 137.623 76.292" fill="none" stroke="#1cbaba" stroke-width="7" stroke-linecap="round" stroke-dasharray="19.2055 155.4041"/>
+<path d="M 145.047 217.953 A 106 106 0 0 1 137.623 76.292" fill="none" stroke="#1cbaba" stroke-width="7" stroke-linecap="round" stroke-dasharray="19.3655 155.4041"/>
 <rect x="423" y="22" width="126" height="62" rx="8" fill="#333333"/>
 <text x="486" y="47" fill="#1cbaba" font-size="17">Easy</text>
-<text x="486" y="72" fill="#f2f2f2" font-size="18">120/971</text>
+<text x="486" y="72" fill="#f2f2f2" font-size="18">121/971</text>
 <path d="M 145.047 68.047 A 106 106 0 0 1 286.708 60.623" fill="none" stroke="#58491f" stroke-width="7" stroke-linecap="round"/>
 <path d="M 145.047 68.047 A 106 106 0 0 1 286.708 60.623" fill="none" stroke="#ffb800" stroke-width="7" stroke-linecap="round" stroke-dasharray="1.8987 155.4041"/>
 <rect x="423" y="96" width="126" height="62" rx="8" fill="#333333"/>
@@ -19,7 +19,7 @@
 <rect x="423" y="170" width="126" height="62" rx="8" fill="#333333"/>
 <text x="486" y="195" fill="#f63737" font-size="17">Hard</text>
 <text x="486" y="220" fill="#f2f2f2" font-size="18">1/983</text>
-<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">147</tspan><tspan font-size="20">/4082</tspan></text>
+<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">148</tspan><tspan font-size="20">/4082</tspan></text>
 <text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="220" y="223" fill="#a6a6a6" font-size="18">12 Explained</text>
 </g></g>
@@ -3889,7 +3889,7 @@
 <rect x="587" y="226" width="4" height="4" fill="#3a3426"><title>3863: Minimum Operations to Sort a String — Medium — UNSOLVED</title></rect>
 <rect x="592" y="226" width="4" height="4" fill="#3a2929"><title>3864: Minimum Cost to Partition a Binary String — Hard — UNSOLVED</title></rect>
 <rect x="597" y="226" width="4" height="4" fill="#3a3426"><title>3865: Reverse K Subarrays — Medium — UNSOLVED</title></rect>
-<rect x="602" y="226" width="4" height="4" fill="#283737"><title>3866: First Unique Even Element — Easy — UNSOLVED</title></rect>
+<rect x="602" y="226" width="4" height="4" fill="#1cbaba"><title>3866: First Unique Even Element — Easy — SOLVED</title></rect>
 <rect x="607" y="226" width="4" height="4" fill="#3a3426"><title>3867: Sum of GCD of Formed Pairs — Medium — UNSOLVED</title></rect>
 <rect x="612" y="226" width="4" height="4" fill="#3a3426"><title>3868: Minimum Cost to Equalize Arrays Using Swaps — Medium — UNSOLVED</title></rect>
 <rect x="617" y="226" width="4" height="4" fill="#3a2929"><title>3869: Count Fancy Numbers in a Range — Hard — UNSOLVED</title></rect>
