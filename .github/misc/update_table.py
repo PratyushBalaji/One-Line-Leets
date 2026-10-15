@@ -30,7 +30,8 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 
 def stats_svg(rows, problems):
     catalog = sorted(problems.items(), key=lambda item: int(item[0]))
-    height = max(266, math.ceil(len(catalog) / 128) * 7 + 41)
+    map_height = math.ceil(len(catalog) / 96) * 5 - 1
+    height = max(266, map_height + 52)
     totals = [sum(p['difficulty']['level'] == level for p in problems.values()) for level in (1, 2, 3)]
     solved = [sum(row['solved'] == 'SOLVED' and problems[number]['difficulty']['level'] == level
                   for number, row in rows.items()) for level in (1, 2, 3)]
@@ -65,9 +66,9 @@ def stats_svg(rows, problems):
         level = problem['difficulty']['level']
         status = rows.get(number, {}).get('solved', 'UNSOLVED')
         color = colors[level][0 if status == 'SOLVED' else 1]
-        x, y = 465 + (i % 128) * 4, 21 + (i // 128) * 7
+        x, y = 477 + (i % 96) * 5, (height - map_height) // 2 + (i // 96) * 5
         label = escape(f"{number}: {problem['stat']['question__title']} — {('Easy', 'Medium', 'Hard')[level - 1]} — {status}")
-        parts.append(f'<rect x="{x}" y="{y}" width="3" height="6" rx="1.5" fill="{color}"><title>{label}</title></rect>')
+        parts.append(f'<rect x="{x}" y="{y}" width="4" height="4" fill="{color}"><title>{label}</title></rect>')
     parts.append('</g></svg>')
     return '\n'.join(parts) + '\n'
 
