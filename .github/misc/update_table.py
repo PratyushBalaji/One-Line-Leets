@@ -42,7 +42,7 @@ def stats_svg(rows, problems):
              f'<g transform="translate(-28 {17 + (height - 266) / 2:g}) scale(0.85)">',
              '<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">']
     for i, (label, color, background) in enumerate([
-            ('Easy', '#1cbaba', '#234747'), ('Med.', '#ffb800', '#58491f'), ('Hard', '#f63737', '#572b2b')]):
+            ('Easy', '#1cbaba', '#234747'), ('Medium', '#ffb800', '#58491f'), ('Hard', '#f63737', '#572b2b')]):
         start, end = math.radians(135 + i * 90), math.radians(219 + i * 90)
         x1, y1 = 220 + 106 * math.cos(start), 143 + 106 * math.sin(start)
         x2, y2 = 220 + 106 * math.cos(end), 143 + 106 * math.sin(end)
