@@ -30,45 +30,54 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 
 def stats_svg(rows, problems):
     catalog = sorted(problems.items(), key=lambda item: int(item[0]))
-    map_height = math.ceil(len(catalog) / 96) * 5 - 1
-    height = max(266, map_height + 52)
+    columns, pitch, size = 114, 5, 4
+    section_height = math.ceil(len(catalog) / columns) * pitch - (pitch - size)
+    map_width = columns * pitch - (pitch - size)
+    width, circle_width, cats_width = 1000, 176, 108
+    gap = (width - circle_width - cats_width - map_width) / 4
+    height = section_height + 2 * gap
+    cx = cy = gap + circle_width / 2
+    cats_x = 2 * gap + circle_width
+    map_x = 3 * gap + circle_width + cats_width
     totals = [sum(p['difficulty']['level'] == level for p in problems.values()) for level in (1, 2, 3)]
     solved = [sum(row['solved'] == 'SOLVED' and problems[number]['difficulty']['level'] == level
                   for number, row in rows.items()) for level in (1, 2, 3)]
     explained = sum(row['explained'] == 'EXPLAINED' for row in rows.values())
-    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{height}" viewBox="0 0 1000 {height}" role="img" aria-labelledby="title desc">',
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height:g}" viewBox="0 0 {width} {height:g}" role="img" aria-labelledby="title desc">',
              '<title id="title">One-line LeetCode solutions</title>',
              f'<desc id="desc">{sum(solved)} of {sum(totals)} solved. Easy {solved[0]}/{totals[0]}, Medium {solved[1]}/{totals[1]}, Hard {solved[2]}/{totals[2]}. {explained} explained.</desc>',
-             f'<rect width="1000" height="{height}" rx="14" fill="#262626"/>',
-             f'<g transform="translate(-28 {17 + (height - 266) / 2:g}) scale(0.85)">',
-             '<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">']
-    for i, (label, color, background) in enumerate([
-            ('Easy', '#1cbaba', '#234747'), ('Medium', '#ffb800', '#58491f'), ('Hard', '#f63737', '#572b2b')]):
-        start, end = math.radians(135 + i * 90), math.radians(219 + i * 90)
-        x1, y1 = 220 + 106 * math.cos(start), 143 + 106 * math.sin(start)
-        x2, y2 = 220 + 106 * math.cos(end), 143 + 106 * math.sin(end)
-        path = f'M {x1:.3f} {y1:.3f} A 106 106 0 0 1 {x2:.3f} {y2:.3f}'
-        parts.append(f'<path d="{path}" fill="none" stroke="{background}" stroke-width="7" stroke-linecap="round"/>')
-        length = 106 * (end - start)
-        progress = length * solved[i] / totals[i] if totals[i] else 0
-        if progress:
-            parts.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="7" stroke-linecap="round" stroke-dasharray="{progress:.4f} {length:.4f}"/>')
-        y = 22 + i * 74
-        parts.extend([f'<rect x="423" y="{y}" width="126" height="62" rx="8" fill="#333333"/>',
-                      f'<text x="486" y="{y + 25}" fill="{color}" font-size="17">{label}</text>',
-                      f'<text x="486" y="{y + 50}" fill="#f2f2f2" font-size="18">{solved[i]}/{totals[i]}</text>'])
-    parts.extend([f'<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">{sum(solved)}</tspan><tspan font-size="20">/{sum(totals)}</tspan></text>',
-                  '<text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>one-liners</text>',
-                  f'<text x="220" y="223" fill="#a6a6a6" font-size="18">{explained} Explained</text>',
-                  '</g></g>', '<g id="problem-map">'])
+             f'<rect width="{width}" height="{height:g}" rx="14" fill="#262626"/>',
+             '<g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">']
+    cat_gap = 10
+    cat_height = (section_height - 2 * cat_gap) / 3
     colors = {1: ('#1cbaba', '#283737'), 2: ('#ffb800', '#3a3426'), 3: ('#f63737', '#3a2929')}
+    for i, (label, background) in enumerate([('Easy', '#234747'), ('Medium', '#58491f'), ('Hard', '#572b2b')]):
+        color = colors[i + 1][0]
+        start, end = math.radians(135 + i * 90), math.radians(219 + i * 90)
+        radius = 85
+        x1, y1 = cx + radius * math.cos(start), cy + radius * math.sin(start)
+        x2, y2 = cx + radius * math.cos(end), cy + radius * math.sin(end)
+        path = f'M {x1:.3f} {y1:.3f} A {radius} {radius} 0 0 1 {x2:.3f} {y2:.3f}'
+        parts.append(f'<path d="{path}" fill="none" stroke="{background}" stroke-width="6" stroke-linecap="round"/>')
+        length = radius * (end - start)
+        if solved[i]:
+            progress = length * solved[i] / totals[i]
+            parts.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="6" stroke-linecap="round" stroke-dasharray="{progress:.4f} {length:.4f}"/>')
+        y = gap + i * (cat_height + cat_gap)
+        parts.extend([f'<rect x="{cats_x:g}" y="{y:g}" width="{cats_width}" height="{cat_height:g}" rx="7" fill="#333333"/>',
+                      f'<text x="{cats_x + cats_width / 2:g}" y="{y + cat_height / 2 - 5:g}" fill="{color}" font-size="14.5">{label}</text>',
+                      f'<text x="{cats_x + cats_width / 2:g}" y="{y + cat_height / 2 + 16:g}" fill="#f2f2f2" font-size="15.3">{solved[i]}/{totals[i]}</text>'])
+    parts.extend([f'<text x="{cx:g}" y="{cy - 8:g}" fill="#f5f5f5"><tspan font-size="36.5">{sum(solved)}</tspan><tspan font-size="17">/{sum(totals)}</tspan></text>',
+                  f'<text x="{cx:g}" y="{cy + 18:g}" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>',
+                  f'<text x="{cx:g}" y="{gap + section_height - 4:g}" fill="#a6a6a6" font-size="15.3">{explained} Explained</text>',
+                  '</g>', '<g id="problem-map">'])
     for i, (number, problem) in enumerate(catalog):
         level = problem['difficulty']['level']
         status = rows.get(number, {}).get('solved', 'UNSOLVED')
         color = colors[level][0 if status == 'SOLVED' else 1]
-        x, y = 477 + (i % 96) * 5, (height - map_height) // 2 + (i // 96) * 5
+        x, y = map_x + (i % columns) * pitch, gap + (i // columns) * pitch
         label = escape(f"{number}: {problem['stat']['question__title']} — {('Easy', 'Medium', 'Hard')[level - 1]} — {status}")
-        parts.append(f'<rect x="{x}" y="{y}" width="4" height="4" fill="{color}"><title>{label}</title></rect>')
+        parts.append(f'<rect x="{x:g}" y="{y:g}" width="{size}" height="{size}" fill="{color}"><title>{label}</title></rect>')
     parts.append('</g></svg>')
     return '\n'.join(parts) + '\n'
 
