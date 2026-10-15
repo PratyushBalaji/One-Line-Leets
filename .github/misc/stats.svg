@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">151 of 4082 solved. Easy 123/971, Medium 27/2128, Hard 1/983. 12 explained.</desc>
+<desc id="desc">152 of 4082 solved. Easy 124/971, Medium 27/2128, Hard 1/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="15.7856 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="15.9140 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">123/971</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">124/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.5811 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">1/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">151</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">152</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -1150,7 +1150,7 @@
 <rect x="884.25" y="81.75" width="4" height="4" fill="#3a2929"><title>1125: Smallest Sufficient Team — Hard — UNSOLVED</title></rect>
 <rect x="889.25" y="81.75" width="4" height="4" fill="#3a3426"><title>1126: Active Businesses — Medium — UNSOLVED</title></rect>
 <rect x="894.25" y="81.75" width="4" height="4" fill="#3a2929"><title>1127: User Purchase Platform — Hard — UNSOLVED</title></rect>
-<rect x="899.25" y="81.75" width="4" height="4" fill="#283737"><title>1128: Number of Equivalent Domino Pairs — Easy — UNSOLVED</title></rect>
+<rect x="899.25" y="81.75" width="4" height="4" fill="#1cbaba"><title>1128: Number of Equivalent Domino Pairs — Easy — SOLVED</title></rect>
 <rect x="904.25" y="81.75" width="4" height="4" fill="#3a3426"><title>1129: Shortest Path with Alternating Colors — Medium — UNSOLVED</title></rect>
 <rect x="909.25" y="81.75" width="4" height="4" fill="#3a3426"><title>1130: Minimum Cost Tree From Leaf Values — Medium — UNSOLVED</title></rect>
 <rect x="914.25" y="81.75" width="4" height="4" fill="#3a3426"><title>1131: Maximum of Absolute Value Expression — Medium — UNSOLVED</title></rect>
