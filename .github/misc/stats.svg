@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">149 of 4082 solved. Easy 122/971, Medium 26/2128, Hard 1/983. 12 explained.</desc>
+<desc id="desc">150 of 4082 solved. Easy 123/971, Medium 26/2128, Hard 1/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="15.6573 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="15.7856 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">122/971</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">123/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.5226 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">1/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">149</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">150</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -3934,7 +3934,7 @@
 <rect x="554.25" y="206.75" width="4" height="4" fill="#3a3426"><title>3909: Compare Sums of Bitonic Parts — Medium — UNSOLVED</title></rect>
 <rect x="559.25" y="206.75" width="4" height="4" fill="#3a2929"><title>3910: Count Connected Subgraphs with Even Node Sum — Hard — UNSOLVED</title></rect>
 <rect x="564.25" y="206.75" width="4" height="4" fill="#3a2929"><title>3911: K-th Smallest Remaining Even Integer in Subarray Queries — Hard — UNSOLVED</title></rect>
-<rect x="569.25" y="206.75" width="4" height="4" fill="#283737"><title>3912: Valid Elements in an Array — Easy — UNSOLVED</title></rect>
+<rect x="569.25" y="206.75" width="4" height="4" fill="#1cbaba"><title>3912: Valid Elements in an Array — Easy — SOLVED</title></rect>
 <rect x="574.25" y="206.75" width="4" height="4" fill="#3a3426"><title>3913: Sort Vowels by Frequency — Medium — UNSOLVED</title></rect>
 <rect x="579.25" y="206.75" width="4" height="4" fill="#3a3426"><title>3914: Minimum Operations to Make Array Non Decreasing — Medium — UNSOLVED</title></rect>
 <rect x="584.25" y="206.75" width="4" height="4" fill="#3a2929"><title>3915: Maximum Sum of Alternating Subsequence With Distance at Least K — Hard — UNSOLVED</title></rect>
