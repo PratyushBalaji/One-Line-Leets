@@ -7,4 +7,7 @@
 
 class Solution(object):
     def maxProduct(self, nums):
-        return (lambda t3: 0 if t3.count(0) >= 1 else t3[0] * t3[1] * 10**5 * (1 if 0 > max(t3[0],t3[1]) or 0 < min(t3[0],t3[1]) else -1))(sorted([i[0] for i in set(heapq.nlargest(3, zip(nums,range(len(nums)))) + heapq.nsmallest(3, zip(nums,range(len(nums)))))], key=abs, reverse=True)[:2])
+        return 10**5 * abs((lambda x: x[0] * x[1])(heapq.nlargest(2, nums, key=abs)))
+        
+# old solution because i didnt realise nlargest can take a key=abs argument (horribly inefficient) :
+# return (lambda t3: 0 if t3.count(0) >= 1 else t3[0] * t3[1] * 10**5 * (1 if 0 > max(t3[0],t3[1]) or 0 < min(t3[0],t3[1]) else -1))(sorted([i[0] for i in set(heapq.nlargest(3, zip(nums,range(len(nums)))) + heapq.nsmallest(3, zip(nums,range(len(nums)))))], key=abs, reverse=True)[:2])
