@@ -32,6 +32,7 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 | [0434](codes/0434.py) | [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/)                                                                   | ✅      | ❌         |
 | [0448](codes/0448.py) | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)                                               | ✅      | ❌         |
 | [0476](codes/0476.py) | [Number Complement](https://leetcode.com/problems/number-complement/)                                                                                             | ✅      | ❌         |
+| [0495](codes/0495.py) | [Teemo Attacking](https://leetcode.com/problems/teemo-attacking/)                                                                                                 | ✅      | ❌         |
 | [0551](codes/0551.py) | [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)                                                                         | ✅      | ❌         |
 | [0575](codes/0575.py) | [Distribute Candies](https://leetcode.com/problems/distribute-candies/)                                                                                           | ✅      | ❌         |
 | [0648](codes/0648.py) | [Replace Words](https://leetcode.com/problems/replace-words/)                                                                                                     | ✅      | ❌         |
