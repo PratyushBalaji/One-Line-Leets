@@ -1,16 +1,16 @@
 # One Line LeetCode Solutions
 
-<p align="center">
-  <img src=".github/misc/stats.svg?v=map" alt="One-line solution stats and problem map" width="1000">
-</p>
-
 I like challenging myself to solve LeetCode problems in one single line. Code Golf : Line Edition
 
-This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions. Solutions that could fit in just one return statement! I wasn't intentionally seeking out solutions that consisted of a single expression, however, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
+This game of mine started a few years ago when I would stumble upon LeetCode problems that had unsuspecting elegant solutions; solutions that could fit in just one return statement! I wasn't intentionally seeking out solutions that consisted of a single expression, however, my interest in trying to find such one-line solutions piqued when I began learning functional programming in Racket/Scheme at the University of Waterloo, and now it's become a personal challenge of mine.
 
 Goal : `[ "$(ls codes/*.py | wc -l)" -eq "$(grep -Ev '^[[:space:]]*(#|class[[:space:]]|def[[:space:]]|$)' codes/*.py | wc -l)" ] && echo "Equal" || echo "Not equal"`
 
----
+<p align="center">
+  <img src=".github/misc/stats.svg?v=map" alt="One-line solution stats and problem map" width="1000">
+  <br>
+  <sub>Current Progress</sub>
+</p>
 
 ## Rules : 
 - Code must be one single line (One expression)
@@ -22,8 +22,6 @@ On the other hand, while `return max(list(map(lambda pair: pair[0] ^ pair[1], fi
 All solutions are titled by their corresponding problem number. File \<problem-number\>.py (`^[0-9]{4}.py$`) contains the problem description, a link to the problem, and my one line solution, sometimes with comments.
 
 Disclaimer : These solutions are usually **extremely** inefficient. Sometimes they shine though.
-
----
 
 ## Showcase
 
