@@ -11,6 +11,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | Problem Number        | Version Requirement | Reason     | Alternative? |
 |-----------------------|---------------------|------------|--------------|
 | [0268](codes/0268.py) | <= 2.7              | `reduce()` | `functools`  |
+| [0495](codes/0495.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0898](codes/0898.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0922](codes/0922.py) | <= 2.7              | `reduce()` | `functools`  |
 | [1018](codes/1018.py) | >= 3.2              | `accumulate()` | Alternative Solutions Included |
