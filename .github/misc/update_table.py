@@ -53,7 +53,7 @@ def stats_svg(rows, problems):
                       f'<text x="486" y="{y + 25}" fill="{color}" font-size="17">{label}</text>',
                       f'<text x="486" y="{y + 50}" fill="#f2f2f2" font-size="18">{solved[i]}/{totals[i]}</text>'])
     parts.extend([f'<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">{sum(solved)}</tspan><tspan font-size="20">/{sum(totals)}</tspan></text>',
-                  '<text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>Solved</text>',
+                  '<text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>one-liners</text>',
                   f'<text x="220" y="223" fill="#a6a6a6" font-size="18">{explained} Explained</text>',
                   '</g></svg>'])
     return '\n'.join(parts) + '\n'
