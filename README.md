@@ -1,6 +1,8 @@
 # One Line LeetCode Solutions
 
-![Solution stats](.github/misc/stats.svg)
+<p align="center">
+  <img src=".github/misc/stats.svg?v=map" alt="One-line solution stats and problem map" width="1000">
+</p>
 
 I like challenging myself to solve LeetCode problems in one single line. Code Golf : Line Edition
 

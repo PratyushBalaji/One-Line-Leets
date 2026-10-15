@@ -3,6 +3,7 @@ import csv
 import io
 import json
 import math
+from html import escape
 from pathlib import Path
 import re
 from urllib.request import Request, urlopen
@@ -28,14 +29,17 @@ My solutions can be found under `codes/` named `<problem-number>.py` or by click
 
 
 def stats_svg(rows, problems):
+    catalog = sorted(problems.items(), key=lambda item: int(item[0]))
+    height = max(266, math.ceil(len(catalog) / 128) * 7 + 41)
     totals = [sum(p['difficulty']['level'] == level for p in problems.values()) for level in (1, 2, 3)]
     solved = [sum(row['solved'] == 'SOLVED' and problems[number]['difficulty']['level'] == level
                   for number, row in rows.items()) for level in (1, 2, 3)]
     explained = sum(row['explained'] == 'EXPLAINED' for row in rows.values())
-    parts = ['<svg xmlns="http://www.w3.org/2000/svg" width="580" height="266" viewBox="0 0 580 266" role="img" aria-labelledby="title desc">',
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="{height}" viewBox="0 0 1000 {height}" role="img" aria-labelledby="title desc">',
              '<title id="title">One-line LeetCode solutions</title>',
              f'<desc id="desc">{sum(solved)} of {sum(totals)} solved. Easy {solved[0]}/{totals[0]}, Medium {solved[1]}/{totals[1]}, Hard {solved[2]}/{totals[2]}. {explained} explained.</desc>',
-             '<rect width="580" height="266" rx="14" fill="#262626"/>',
+             f'<rect width="1000" height="{height}" rx="14" fill="#262626"/>',
+             f'<g transform="translate(-28 {17 + (height - 266) / 2:g}) scale(0.85)">',
              '<g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">']
     for i, (label, color, background) in enumerate([
             ('Easy', '#1cbaba', '#234747'), ('Med.', '#ffb800', '#58491f'), ('Hard', '#f63737', '#572b2b')]):
@@ -55,7 +59,16 @@ def stats_svg(rows, problems):
     parts.extend([f'<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">{sum(solved)}</tspan><tspan font-size="20">/{sum(totals)}</tspan></text>',
                   '<text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>one-liners</text>',
                   f'<text x="220" y="223" fill="#a6a6a6" font-size="18">{explained} Explained</text>',
-                  '</g></svg>'])
+                  '</g></g>', '<g id="problem-map">'])
+    colors = {1: ('#1cbaba', '#283737'), 2: ('#ffb800', '#3a3426'), 3: ('#f63737', '#3a2929')}
+    for i, (number, problem) in enumerate(catalog):
+        level = problem['difficulty']['level']
+        status = rows.get(number, {}).get('solved', 'UNSOLVED')
+        color = colors[level][0 if status == 'SOLVED' else 1]
+        x, y = 465 + (i % 128) * 4, 21 + (i // 128) * 7
+        label = escape(f"{number}: {problem['stat']['question__title']} — {('Easy', 'Medium', 'Hard')[level - 1]} — {status}")
+        parts.append(f'<rect x="{x}" y="{y}" width="3" height="6" rx="1.5" fill="{color}"><title>{label}</title></rect>')
+    parts.append('</g></svg>')
     return '\n'.join(parts) + '\n'
 
 
@@ -103,13 +116,15 @@ def update_table(root, data):
     writer.writerows(rows.values())
     rendered = {}
     for number, row in rows.items():
-        problem = problems[number]['stat']
+        metadata = problems[number]
+        problem = metadata['stat']
         title = problem['question__title'].replace('|', r'\|')
         url = 'https://leetcode.com/problems/' + problem['question__title_slug'] + '/'
         rendered[number] = [f'[{number}](codes/{number}.py)' if number in codes else number,
-                            f'[{title}]({url})', EMOJI[row['solved']], EMOJI[row['explained']]]
-    table = [['Problem Number', 'Problem Title (Leetcode Redirect)', 'Solved', 'Explained'], *rendered.values()]
-    widths = [max(len(row[i]) for row in table) for i in range(4)]
+                            f'[{title}]({url})', ('Easy', 'Medium', 'Hard')[metadata['difficulty']['level'] - 1],
+                            EMOJI[row['solved']], EMOJI[row['explained']]]
+    table = [['Problem Number', 'Problem Title (Leetcode Redirect)', 'Difficulty', 'Solved', 'Explained'], *rendered.values()]
+    widths = [max(len(row[i]) for row in table) for i in range(len(table[0]))]
     lines = ['| ' + ' | '.join(cell.ljust(width) for cell, width in zip(row, widths)) + ' |' for row in table]
     lines.insert(1, '| ' + ' | '.join('-' * width for width in widths) + ' |')
     md_path = root / 'table.md'
@@ -117,7 +132,7 @@ def update_table(root, data):
     for line in md_path.read_text(encoding='utf-8').splitlines():
         if line.startswith('|'):
             cells = [cell.strip() for cell in re.split(r'(?<!\\)\|', line)[1:-1]]
-            if len(cells) == 4 and (match := re.match(r'(?:\[)?(\d{4})', cells[0])):
+            if len(cells) in (4, 5) and (match := re.match(r'(?:\[)?(\d{4})', cells[0])):
                 old_rendered[match.group(1)] = cells
     changed = sorted(number for number in rows.keys() | old_rendered.keys()
                      if rows.get(number) != before.get(number) or rendered.get(number) != old_rendered.get(number))
