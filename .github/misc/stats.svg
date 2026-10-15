@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="266" viewBox="0 0 1000 266" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">145 of 4082 solved. Easy 120/971, Medium 24/2128, Hard 1/983. 12 explained.</desc>
+<desc id="desc">146 of 4082 solved. Easy 120/971, Medium 25/2128, Hard 1/983. 12 explained.</desc>
 <rect width="1000" height="266" rx="14" fill="#262626"/>
 <g transform="translate(-28 17) scale(0.85)">
 <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
@@ -10,16 +10,16 @@
 <text x="486" y="47" fill="#1cbaba" font-size="17">Easy</text>
 <text x="486" y="72" fill="#f2f2f2" font-size="18">120/971</text>
 <path d="M 145.047 68.047 A 106 106 0 0 1 286.708 60.623" fill="none" stroke="#58491f" stroke-width="7" stroke-linecap="round"/>
-<path d="M 145.047 68.047 A 106 106 0 0 1 286.708 60.623" fill="none" stroke="#ffb800" stroke-width="7" stroke-linecap="round" stroke-dasharray="1.7527 155.4041"/>
+<path d="M 145.047 68.047 A 106 106 0 0 1 286.708 60.623" fill="none" stroke="#ffb800" stroke-width="7" stroke-linecap="round" stroke-dasharray="1.8257 155.4041"/>
 <rect x="423" y="96" width="126" height="62" rx="8" fill="#333333"/>
 <text x="486" y="121" fill="#ffb800" font-size="17">Med.</text>
-<text x="486" y="146" fill="#f2f2f2" font-size="18">24/2128</text>
+<text x="486" y="146" fill="#f2f2f2" font-size="18">25/2128</text>
 <path d="M 294.953 68.047 A 106 106 0 0 1 302.377 209.708" fill="none" stroke="#572b2b" stroke-width="7" stroke-linecap="round"/>
 <path d="M 294.953 68.047 A 106 106 0 0 1 302.377 209.708" fill="none" stroke="#f63737" stroke-width="7" stroke-linecap="round" stroke-dasharray="0.1581 155.4041"/>
 <rect x="423" y="170" width="126" height="62" rx="8" fill="#333333"/>
 <text x="486" y="195" fill="#f63737" font-size="17">Hard</text>
 <text x="486" y="220" fill="#f2f2f2" font-size="18">1/983</text>
-<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">145</tspan><tspan font-size="20">/4082</tspan></text>
+<text x="220" y="132" fill="#f5f5f5"><tspan font-size="43">146</tspan><tspan font-size="20">/4082</tspan></text>
 <text x="220" y="163" fill="#f5f5f5" font-size="21"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="220" y="223" fill="#a6a6a6" font-size="18">12 Explained</text>
 </g></g>
@@ -1250,7 +1250,7 @@
 <rect x="749" y="84" width="3" height="6" rx="1.5" fill="#3a2929"><title>1224: Maximum Equal Frequency — Hard — UNSOLVED</title></rect>
 <rect x="753" y="84" width="3" height="6" rx="1.5" fill="#3a2929"><title>1225: Report Contiguous Dates — Hard — UNSOLVED</title></rect>
 <rect x="757" y="84" width="3" height="6" rx="1.5" fill="#3a3426"><title>1226: The Dining Philosophers — Medium — UNSOLVED</title></rect>
-<rect x="761" y="84" width="3" height="6" rx="1.5" fill="#3a3426"><title>1227: Airplane Seat Assignment Probability — Medium — UNSOLVED</title></rect>
+<rect x="761" y="84" width="3" height="6" rx="1.5" fill="#ffb800"><title>1227: Airplane Seat Assignment Probability — Medium — SOLVED</title></rect>
 <rect x="765" y="84" width="3" height="6" rx="1.5" fill="#283737"><title>1228: Missing Number In Arithmetic Progression — Easy — UNSOLVED</title></rect>
 <rect x="769" y="84" width="3" height="6" rx="1.5" fill="#3a3426"><title>1229: Meeting Scheduler — Medium — UNSOLVED</title></rect>
 <rect x="773" y="84" width="3" height="6" rx="1.5" fill="#3a3426"><title>1230: Toss Strange Coins — Medium — UNSOLVED</title></rect>
