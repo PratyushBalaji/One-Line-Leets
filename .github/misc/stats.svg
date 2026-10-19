@@ -241,7 +241,7 @@
 <rect x="899.25" y="41.75" width="4" height="4" fill="#3a3426"><title>0216: Combination Sum III — Medium — UNSOLVED</title></rect>
 <rect x="904.25" y="41.75" width="4" height="4" fill="#283737"><title>0217: Contains Duplicate — Easy — UNSOLVED</title></rect>
 <rect x="909.25" y="41.75" width="4" height="4" fill="#3a2929"><title>0218: The Skyline Problem — Hard — UNSOLVED</title></rect>
-<rect x="914.25" y="41.75" width="4" height="4" fill="#283737"><title>0219: Contains Duplicate II — Easy — UNSOLVED</title></rect>
+<rect x="914.25" y="41.75" width="4" height="4" fill="#283737"><title>0219: Contains Duplicate II — Easy — TLE</title></rect>
 <rect x="919.25" y="41.75" width="4" height="4" fill="#3a2929"><title>0220: Contains Duplicate III — Hard — TLE</title></rect>
 <rect x="924.25" y="41.75" width="4" height="4" fill="#3a3426"><title>0221: Maximal Square — Medium — UNSOLVED</title></rect>
 <rect x="929.25" y="41.75" width="4" height="4" fill="#3a3426"><title>0222: Count Complete Tree Nodes — Medium — UNSOLVED</title></rect>
