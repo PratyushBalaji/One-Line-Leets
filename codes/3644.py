@@ -7,4 +7,10 @@
 
 class Solution(object):
     def sortPermutation(self, nums):
-        return (lambda s: (lambda lst: reduce(lambda x,y : x&y, lst) if lst else 0)([i for x, i in enumerate(nums) if i != s[x]]))(sorted(nums))
+        return max(reduce(lambda x,y : x&y, [i for x, i in enumerate(nums) if i != x], -1), 0)
+        
+# Old : 
+# return (lambda s: (lambda lst: reduce(lambda x,y : x&y, lst) if lst else 0)([i for x, i in enumerate(nums) if i != s[x]]))(sorted(nums))
+
+# Better : 
+# return (lambda lst: reduce(lambda x,y : x&y, lst) if lst else 0)([i for x, i in enumerate(nums) if i != x])
