@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">166 of 4091 solved. Easy 133/973, Medium 31/2133, Hard 2/985. 12 explained.</desc>
+<desc id="desc">167 of 4091 solved. Easy 134/973, Medium 31/2133, Hard 2/985. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.0339 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.1620 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">133/973</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">134/973</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.8111 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">2/985</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">166</tspan><tspan font-size="17">/4091</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">167</tspan><tspan font-size="17">/4091</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -3538,7 +3538,7 @@
 <rect x="854.25" y="186.75" width="4" height="4" fill="#3a3426"><title>3513: Number of Unique XOR Triplets I — Medium — UNSOLVED</title></rect>
 <rect x="859.25" y="186.75" width="4" height="4" fill="#3a3426"><title>3514: Number of Unique XOR Triplets II — Medium — UNSOLVED</title></rect>
 <rect x="864.25" y="186.75" width="4" height="4" fill="#3a2929"><title>3515: Shortest Path in a Weighted Tree — Hard — UNSOLVED</title></rect>
-<rect x="869.25" y="186.75" width="4" height="4" fill="#283737"><title>3516: Find Closest Person — Easy — UNSOLVED</title></rect>
+<rect x="869.25" y="186.75" width="4" height="4" fill="#1cbaba"><title>3516: Find Closest Person — Easy — SOLVED</title></rect>
 <rect x="874.25" y="186.75" width="4" height="4" fill="#3a3426"><title>3517: Smallest Palindromic Rearrangement I — Medium — UNSOLVED</title></rect>
 <rect x="879.25" y="186.75" width="4" height="4" fill="#3a2929"><title>3518: Smallest Palindromic Rearrangement II — Hard — UNSOLVED</title></rect>
 <rect x="884.25" y="186.75" width="4" height="4" fill="#3a2929"><title>3519: Count Numbers with Non-Decreasing Digits  — Hard — UNSOLVED</title></rect>
