@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">168 of 4096 solved. Easy 135/974, Medium 31/2136, Hard 2/986. 12 explained.</desc>
+<desc id="desc">169 of 4096 solved. Easy 136/974, Medium 31/2136, Hard 2/986. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.2723 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.4003 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">135/974</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">136/974</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.8086 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">2/986</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">168</tspan><tspan font-size="17">/4096</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">169</tspan><tspan font-size="17">/4096</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -3091,7 +3091,7 @@
 <rect x="899.25" y="166.75" width="4" height="4" fill="#3a3426"><title>3066: Minimum Operations to Exceed Threshold Value II — Medium — UNSOLVED</title></rect>
 <rect x="904.25" y="166.75" width="4" height="4" fill="#3a3426"><title>3067: Count Pairs of Connectable Servers in a Weighted Tree Network — Medium — UNSOLVED</title></rect>
 <rect x="909.25" y="166.75" width="4" height="4" fill="#3a2929"><title>3068: Find the Maximum Sum of Node Values — Hard — UNSOLVED</title></rect>
-<rect x="914.25" y="166.75" width="4" height="4" fill="#283737"><title>3069: Distribute Elements Into Two Arrays I — Easy — UNSOLVED</title></rect>
+<rect x="914.25" y="166.75" width="4" height="4" fill="#1cbaba"><title>3069: Distribute Elements Into Two Arrays I — Easy — SOLVED</title></rect>
 <rect x="919.25" y="166.75" width="4" height="4" fill="#3a3426"><title>3070: Count Submatrices with Top-Left Element and Sum Less Than k — Medium — UNSOLVED</title></rect>
 <rect x="924.25" y="166.75" width="4" height="4" fill="#3a3426"><title>3071: Minimum Operations to Write the Letter Y on a Grid — Medium — UNSOLVED</title></rect>
 <rect x="929.25" y="166.75" width="4" height="4" fill="#3a2929"><title>3072: Distribute Elements Into Two Arrays II — Hard — UNSOLVED</title></rect>
