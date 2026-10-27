@@ -28,6 +28,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [2788](codes/2788.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2810](codes/2810.py) | <= 2.7              | `reduce()` | `functools`  |
 | [3028](codes/3028.py) | >= 3.2              | `accumulate()` | No Alternative  |
+| [3069](codes/3069.py) | <= 2.7              | `reduce()` and tuple unpacking in lambda | `functools` and index tuple inside lambda or unpack with `:=` |
 | [3168](codes/3168.py) | >= 3.2              | `accumulate()` | No Alternative  |
 | [3304](codes/3304.py) | >= 3.8              | `:=`       | No Alternative |
 | [3622](codes/3622.py) | <= 2.7              | `reduce()` | `functools`  |
