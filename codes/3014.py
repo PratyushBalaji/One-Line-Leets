@@ -8,9 +8,13 @@
 # Beats 100% in runtime and memory!
 class Solution(object):
     def minimumPushes(self, word):
-        return sum((x >> 3) for x in range(len(word))) + len(word)
+        # Actually O(1) runtime
+        return (lambda l: min(8, l) + 2*min(8, max(0, l-8)) + 3*min(8, max(0, l-16)) + 4*min(8, max(0, l-24)))(len(word))
 
-# this basically only works because letters are guaranteed unique and thus order doesnt matter
+# Old : technically O(n) runtime but practically O(1) because we know len(word) <= 26
+# return sum((x >> 3) for x in range(len(word))) + len(word)
+
+# these solutions basically only work because letters are guaranteed unique and thus keypad order doesnt matter and len(word) <= 26
 # if uniqueness constraint didnt exist then this is a valid one liner
 # class Solution(object):
 #     def minimumPushes(self, word):
