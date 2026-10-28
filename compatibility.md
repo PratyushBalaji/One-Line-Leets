@@ -20,6 +20,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [1423](codes/1423.py) | >= 3.8              | `:=`       | No Alternative |
 | [1486](codes/1486.py) | <= 2.7              | `reduce()` | `functools`  |
 | [1710](codes/1710.py) | >= 3.2              | `accumulate()` | No Alternative  |
+| [1833](codes/1833.py) | <= 2.7              | `reduce()` and tuple unpacking in lambda | `functools` and index tuple inside lambda or unpack with `:=` |
 | [1835](codes/1835.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2248](codes/2248.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2527](codes/2527.py) | <= 2.7              | `reduce()` | `functools`  |
