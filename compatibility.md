@@ -35,3 +35,4 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [3622](codes/3622.py) | <= 2.7              | `reduce()` | `functools`  |
 | [3644](codes/3644.py) | <= 2.7              | `reduce()` | `functools`  |
 | [3688](codes/3688.py) | <= 2.7              | `reduce()` | `functools`  |
+| [3702](codes/3702.py) | <= 2.7              | `reduce()` | `functools`  |
