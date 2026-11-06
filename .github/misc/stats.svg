@@ -1,24 +1,24 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">172 of 4096 solved. Easy 137/974, Medium 33/2136, Hard 2/986. 12 explained.</desc>
+<desc id="desc">174 of 4082 solved. Easy 137/971, Medium 34/2128, Hard 3/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.5282 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.5823 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">137/974</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">137/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.9253 124.6165"/>
+<path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="1.9911 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="121.25" fill="#ffb800" font-size="14.5">Medium</text>
-<text x="303.5" y="142.25" fill="#f2f2f2" font-size="15.3">33/2136</text>
+<text x="303.5" y="142.25" fill="#f2f2f2" font-size="15.3">34/2128</text>
 <path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#572b2b" stroke-width="6" stroke-linecap="round"/>
-<path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#f63737" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.2528 124.6165"/>
+<path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#f63737" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.3803 124.6165"/>
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
-<text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">2/986</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">172</tspan><tspan font-size="17">/4096</tspan></text>
+<text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">3/983</text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">174</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -576,7 +576,7 @@
 <rect x="864.25" y="56.75" width="4" height="4" fill="#1cbaba"><title>0551: Student Attendance Record I — Easy — SOLVED</title></rect>
 <rect x="869.25" y="56.75" width="4" height="4" fill="#3a2929"><title>0552: Student Attendance Record II — Hard — UNSOLVED</title></rect>
 <rect x="874.25" y="56.75" width="4" height="4" fill="#3a3426"><title>0553: Optimal Division — Medium — UNSOLVED</title></rect>
-<rect x="879.25" y="56.75" width="4" height="4" fill="#3a3426"><title>0554: Brick Wall — Medium — UNSOLVED</title></rect>
+<rect x="879.25" y="56.75" width="4" height="4" fill="#ffb800"><title>0554: Brick Wall — Medium — SOLVED</title></rect>
 <rect x="884.25" y="56.75" width="4" height="4" fill="#3a3426"><title>0555: Split Concatenated Strings — Medium — UNSOLVED</title></rect>
 <rect x="889.25" y="56.75" width="4" height="4" fill="#3a3426"><title>0556: Next Greater Element III — Medium — UNSOLVED</title></rect>
 <rect x="894.25" y="56.75" width="4" height="4" fill="#283737"><title>0557: Reverse Words in a String III — Easy — UNSOLVED</title></rect>
@@ -2754,7 +2754,7 @@
 <rect x="924.25" y="151.75" width="4" height="4" fill="#283737"><title>2729: Check if The Number is Fascinating — Easy — UNSOLVED</title></rect>
 <rect x="929.25" y="151.75" width="4" height="4" fill="#3a3426"><title>2730: Find the Longest Semi-Repetitive Substring — Medium — UNSOLVED</title></rect>
 <rect x="934.25" y="151.75" width="4" height="4" fill="#3a3426"><title>2731: Movement of Robots — Medium — UNSOLVED</title></rect>
-<rect x="939.25" y="151.75" width="4" height="4" fill="#3a2929"><title>2732: Find a Good Subset of the Matrix — Hard — UNSOLVED</title></rect>
+<rect x="939.25" y="151.75" width="4" height="4" fill="#f63737"><title>2732: Find a Good Subset of the Matrix — Hard — SOLVED</title></rect>
 <rect x="944.25" y="151.75" width="4" height="4" fill="#283737"><title>2733: Neither Minimum nor Maximum — Easy — UNSOLVED</title></rect>
 <rect x="949.25" y="151.75" width="4" height="4" fill="#3a3426"><title>2734: Lexicographically Smallest String After Substring Operation — Medium — UNSOLVED</title></rect>
 <rect x="954.25" y="151.75" width="4" height="4" fill="#3a3426"><title>2735: Collecting Chocolates — Medium — UNSOLVED</title></rect>
@@ -4105,18 +4105,4 @@
 <rect x="839.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4080: Design Bus Seat Booking System — Medium — UNSOLVED</title></rect>
 <rect x="844.25" y="211.75" width="4" height="4" fill="#3a2929"><title>4081: Prime Subset Selection II — Hard — UNSOLVED</title></rect>
 <rect x="849.25" y="211.75" width="4" height="4" fill="#3a2929"><title>4082: Minimum Operations to Stabilize a Binary Tree — Hard — UNSOLVED</title></rect>
-<rect x="854.25" y="211.75" width="4" height="4" fill="#283737"><title>4083: Minimum Deletions to Make Array Sharp — Easy — UNSOLVED</title></rect>
-<rect x="859.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4084: Last Visited Cell in a Directional Grid — Medium — UNSOLVED</title></rect>
-<rect x="864.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4085: Find Root of a Colored Tree — Medium — UNSOLVED</title></rect>
-<rect x="869.25" y="211.75" width="4" height="4" fill="#3a2929"><title>4086: Minimum Interval Selection to Cover Target Intervals — Hard — UNSOLVED</title></rect>
-<rect x="874.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4087: Maximum Subarray Sum of Fixed Length After at Most K Swaps — Medium — UNSOLVED</title></rect>
-<rect x="879.25" y="211.75" width="4" height="4" fill="#283737"><title>4088: Difference Between Peaks and Valleys — Easy — UNSOLVED</title></rect>
-<rect x="884.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4089: Count Subarrays With Loose Bounds — Medium — UNSOLVED</title></rect>
-<rect x="889.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4090: Count Magical Substring Pairs I — Medium — UNSOLVED</title></rect>
-<rect x="894.25" y="211.75" width="4" height="4" fill="#3a2929"><title>4091: Count Magical Substring Pairs II — Hard — UNSOLVED</title></rect>
-<rect x="899.25" y="211.75" width="4" height="4" fill="#283737"><title>4092: Binary Digit Score — Easy — UNSOLVED</title></rect>
-<rect x="904.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4093: Maximize Sum After At Most K Digit Rearrangements — Medium — UNSOLVED</title></rect>
-<rect x="909.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4094: Count Frequency Staircase Subarrays I — Medium — UNSOLVED</title></rect>
-<rect x="914.25" y="211.75" width="4" height="4" fill="#3a2929"><title>4095: Count Frequency Staircase Subarrays II — Hard — UNSOLVED</title></rect>
-<rect x="919.25" y="211.75" width="4" height="4" fill="#3a3426"><title>4096: Simulate Bomb Explosions and Falling Boxes — Medium — UNSOLVED</title></rect>
 </g></svg>

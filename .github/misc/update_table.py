@@ -6,6 +6,7 @@ import math
 from html import escape
 from pathlib import Path
 import re
+import sys
 from urllib.request import Request, urlopen
 
 FIELDS = ['number', 'solved', 'explained']
@@ -156,10 +157,30 @@ def update_table(root, data):
     return changed or (list(rows) if dirty else [])
 
 
-if __name__ == '__main__':
+def load_problems(cache_path):
     request = Request('https://leetcode.com/api/problems/all/', headers={'User-Agent': 'Mozilla/5.0'})
-    with urlopen(request, timeout=30) as response:
-        data = json.load(response)
-    changed = update_table(Path(__file__).resolve().parents[2], data)
-    if changed:
+    try:
+        with urlopen(request, timeout=30) as response:
+            data = json.load(response)
+        if not isinstance(data, dict) or not data.get('stat_status_pairs'):
+            raise ValueError('API returned no problem catalog')
+        return data
+    except (OSError, ValueError) as error:
+        print(f'LeetCode API failed ({error}); using {cache_path.name}. Catalog metadata may be stale.', file=sys.stderr)
+        return json.loads(cache_path.read_text(encoding='utf-8'))
+
+
+if __name__ == '__main__':
+    root = Path(__file__).resolve().parents[2]
+    cache_path = root / '.github/misc/problems.json'
+    data = load_problems(cache_path)
+    changed = update_table(root, data)
+    cached = json.dumps(data)
+    cache_changed = cache_path.read_text(encoding='utf-8') != cached
+    if cache_changed:
+        cache_path.write_text(cached, encoding='utf-8')
+    if changed or cache_changed:
+        if not changed:
+            with (root / '.github/misc/table.csv').open(encoding='utf-8') as handle:
+                changed = [row['number'] for row in csv.DictReader(handle)]
         print('table: update ' + ', '.join(changed))
