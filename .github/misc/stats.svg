@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">181 of 4082 solved. Easy 143/971, Medium 35/2128, Hard 3/983. 12 explained.</desc>
+<desc id="desc">184 of 4082 solved. Easy 146/971, Medium 35/2128, Hard 3/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="18.3524 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="18.7374 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">143/971</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">146/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="2.0496 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">3/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">181</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">184</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -1844,7 +1844,7 @@
 <rect x="934.25" y="111.75" width="4" height="4" fill="#3a2929"><title>1819: Number of Different Subsequences GCDs — Hard — UNSOLVED</title></rect>
 <rect x="939.25" y="111.75" width="4" height="4" fill="#3a3426"><title>1820: Maximum Number of Accepted Invitations — Medium — UNSOLVED</title></rect>
 <rect x="944.25" y="111.75" width="4" height="4" fill="#283737"><title>1821: Find Customers With Positive Revenue this Year — Easy — UNSOLVED</title></rect>
-<rect x="949.25" y="111.75" width="4" height="4" fill="#283737"><title>1822: Sign of the Product of an Array — Easy — UNSOLVED</title></rect>
+<rect x="949.25" y="111.75" width="4" height="4" fill="#1cbaba"><title>1822: Sign of the Product of an Array — Easy — SOLVED</title></rect>
 <rect x="954.25" y="111.75" width="4" height="4" fill="#3a3426"><title>1823: Find the Winner of the Circular Game — Medium — UNSOLVED</title></rect>
 <rect x="959.25" y="111.75" width="4" height="4" fill="#3a3426"><title>1824: Minimum Sideway Jumps — Medium — UNSOLVED</title></rect>
 <rect x="394.25" y="116.75" width="4" height="4" fill="#3a2929"><title>1825: Finding MK Average — Hard — UNSOLVED</title></rect>
@@ -2463,7 +2463,7 @@
 <rect x="609.25" y="141.75" width="4" height="4" fill="#3a3426"><title>2438: Range Product Queries of Powers — Medium — UNSOLVED</title></rect>
 <rect x="614.25" y="141.75" width="4" height="4" fill="#3a3426"><title>2439: Minimize Maximum of Array — Medium — UNSOLVED</title></rect>
 <rect x="619.25" y="141.75" width="4" height="4" fill="#3a2929"><title>2440: Create Components With Same Value — Hard — UNSOLVED</title></rect>
-<rect x="624.25" y="141.75" width="4" height="4" fill="#283737"><title>2441: Largest Positive Integer That Exists With Its Negative — Easy — UNSOLVED</title></rect>
+<rect x="624.25" y="141.75" width="4" height="4" fill="#1cbaba"><title>2441: Largest Positive Integer That Exists With Its Negative — Easy — SOLVED</title></rect>
 <rect x="629.25" y="141.75" width="4" height="4" fill="#3a3426"><title>2442: Count Number of Distinct Integers After Reverse Operations — Medium — UNSOLVED</title></rect>
 <rect x="634.25" y="141.75" width="4" height="4" fill="#3a3426"><title>2443: Sum of Number and Its Reverse — Medium — UNSOLVED</title></rect>
 <rect x="639.25" y="141.75" width="4" height="4" fill="#3a2929"><title>2444: Count Subarrays With Fixed Bounds — Hard — UNSOLVED</title></rect>
@@ -2566,7 +2566,7 @@
 <rect x="554.25" y="146.75" width="4" height="4" fill="#3a3426"><title>2541: Minimum Operations to Make Array Equal II — Medium — UNSOLVED</title></rect>
 <rect x="559.25" y="146.75" width="4" height="4" fill="#3a3426"><title>2542: Maximum Subsequence Score — Medium — UNSOLVED</title></rect>
 <rect x="564.25" y="146.75" width="4" height="4" fill="#3a2929"><title>2543: Check if Point Is Reachable — Hard — UNSOLVED</title></rect>
-<rect x="569.25" y="146.75" width="4" height="4" fill="#283737"><title>2544: Alternating Digit Sum — Easy — UNSOLVED</title></rect>
+<rect x="569.25" y="146.75" width="4" height="4" fill="#1cbaba"><title>2544: Alternating Digit Sum — Easy — SOLVED</title></rect>
 <rect x="574.25" y="146.75" width="4" height="4" fill="#3a3426"><title>2545: Sort the Students by Their Kth Score — Medium — UNSOLVED</title></rect>
 <rect x="579.25" y="146.75" width="4" height="4" fill="#3a3426"><title>2546: Apply Bitwise Operations to Make Strings Equal — Medium — UNSOLVED</title></rect>
 <rect x="584.25" y="146.75" width="4" height="4" fill="#3a2929"><title>2547: Minimum Cost to Split an Array — Hard — UNSOLVED</title></rect>
