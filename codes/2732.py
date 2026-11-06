@@ -9,4 +9,4 @@
 # Python 2: dict.keys() and dict.values() return indexable lists.
 class Solution(object):
     def goodSubsetofBinaryMatrix(self, grid):
-        return (lambda dct: next((sorted([dct.values()[i], dct.values()[j]]) for i in range(len(dct)-1) for j in range(i+1, len(dct)) if dct.keys()[i] & dct.keys()[j] == 0), [0] if dct.keys()[0] == 0 else []))({sum(i << x for x, i in enumerate(j[::-1])) : y for y, j in enumerate(grid)})
+        return (lambda dct: (lambda vals, keys, length: next((sorted([vals[i], vals[j]]) for i in range(length-1) for j in range(i+1, length) if keys[i] & keys[j] == 0), [0] if keys[0] == 0 else []))(dct.values(), dct.keys(), len(dct)))({sum(i << x for x, i in enumerate(j[::-1])) : y for y, j in enumerate(grid)})
