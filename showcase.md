@@ -13,9 +13,11 @@ Yes, the code logic itself could be made longer (or *shorter?*) to artificially 
 `return n%2<1`
 
 ### Longest Solution : 
-[#2732](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/) `goodSubsetofBinaryMatrix(self, g)` : 238 Characters
+[#2732](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/) `goodSubsetofBinaryMatrix(self, g)` : 232 Characters
 
-`return(lambda d:next((sorted([d.values()[i],d.values()[j]])for i in range(len(d)-1)for j in range(i+1,len(d))if d.keys()[i]&d.keys()[j]==0),[0]if d.keys()[0]==0 else[]))({sum(i<<x for x,i in enumerate(j[::-1])):y for y,j in enumerate(g)})`
+`return(lambda d:(lambda v,k,l:next((sorted([v[i],v[j]])for i in range(l-1)for j in range(i+1,l)if k[i]&k[j]==0),[0]if k[0]==0 else[]))(d.values(),d.keys(),len(d)))({sum(i<<x for x,i in enumerate(j[::-1])):y for y,j in enumerate(g)})`
+
+Beats 100% in memory!
 
 ---
 
