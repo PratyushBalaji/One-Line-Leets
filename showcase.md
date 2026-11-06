@@ -8,9 +8,9 @@ Metric : Convert all variable (and parameter) names to single characters, remove
 Yes, the code logic itself could be made longer (or *shorter?*) to artificially modify the result, but I'll try not to intentionally write extremely long code :P
 
 ### Shortest Solution : 
-[#1025](https://leetcode.com/problems/divisor-game/) `divisorGame(self, n)` : 12 Characters
+[#1688](https://leetcode.com/problems/count-of-matches-in-tournament/) `numberOfMatches(self, n)` : 10 Characters
 
-`return n%2<1`
+`return n-1`
 
 ### Longest Solution : 
 [#2732](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/) `goodSubsetofBinaryMatrix(self, g)` : 232 Characters
