@@ -25,6 +25,16 @@ Dethroned!
 
 ## Solutions I find interesting :
 
+### Problem [#0319](https://leetcode.com/problems/bulb-switcher/) - Bulb Switcher
+
+`return int(n**0.5)`
+
+This is the same problem as the [100 Monkeys Problem](https://github.com/PratyushBalaji/100-Monkeys), which I explored in another repository—just with bulbs instead of doors!
+
+Each bulb is toggled once for every factor of its number. Factors come in pairs, so most bulbs end up off again. Only doors toggled an odd number of times (i.e. an odd number of factors) stay on, and for perfect squares like 1, 4, or 9, their square root is paired with itself, thus only contributes one toggle and leaves the bulb on!
+
+Since this problem only asks how many bulbs remain on, we don't need to simulate anything or even list the squares. There are exactly `floor(sqrt(n))` perfect squares up to `n`, giving us this tiny one-liner. My 100-Monkeys repo walks through the reasoning and several approaches to finding those squares through continuous optimisation as the pattern reveals itself.
+
 ### Problem [#2248](https://leetcode.com/problems/intersection-of-multiple-arrays) - Intersection of Multiple Arrays
 `return sorted(reduce(lambda x,y:[i for i in x if i in y],nums))`
 
