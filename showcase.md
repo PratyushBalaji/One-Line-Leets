@@ -13,13 +13,9 @@ Yes, the code logic itself could be made longer (or *shorter?*) to artificially 
 `return n%2<1`
 
 ### Longest Solution : 
-[#2423](https://leetcode.com/problems/remove-letter-to-equalize-frequency) `equalFrequency(self, w)` : 265 Characters
+[#2732](https://leetcode.com/problems/find-a-good-subset-of-the-matrix/) `goodSubsetofBinaryMatrix(self, g)` : 238 Characters
 
-~~`return(lambda a,b:min(a,key=a.count)==max(a,key=a.count)or min(b,key=b.count)==max(b,key=b.count))((lambda l:(lambda x:l[:l.index(x)]+l[l.index(x)+1:])(max(l,key=l.count)))(list(w)),(lambda l:(lambda x:l[:l.index(x)]+l[l.index(x)+1:])(min(l,key=l.count)))(list(w)))`~~
-
-Dethroned! 
-
-`return next((True for x, _ in enumerate(word) if len(set(Counter(word[:x] + word[x+1:]).values())) == 1), False)`
+`return(lambda d:next((sorted([d.values()[i],d.values()[j]])for i in range(len(d)-1)for j in range(i+1,len(d))if d.keys()[i]&d.keys()[j]==0),[0]if d.keys()[0]==0 else[]))({sum(i<<x for x,i in enumerate(j[::-1])):y for y,j in enumerate(g)})`
 
 ---
 
