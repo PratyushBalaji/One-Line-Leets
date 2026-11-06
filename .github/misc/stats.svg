@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">177 of 4082 solved. Easy 139/971, Medium 35/2128, Hard 3/983. 12 explained.</desc>
+<desc id="desc">181 of 4082 solved. Easy 143/971, Medium 35/2128, Hard 3/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="17.8390 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="18.3524 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">139/971</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">143/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="2.0496 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">3/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">177</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">181</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -1303,7 +1303,7 @@
 <rect x="509.25" y="91.75" width="4" height="4" fill="#3a2929"><title>1278: Palindrome Partitioning III — Hard — UNSOLVED</title></rect>
 <rect x="514.25" y="91.75" width="4" height="4" fill="#283737"><title>1279: Traffic Light Controlled Intersection — Easy — UNSOLVED</title></rect>
 <rect x="519.25" y="91.75" width="4" height="4" fill="#283737"><title>1280: Students and Examinations — Easy — UNSOLVED</title></rect>
-<rect x="524.25" y="91.75" width="4" height="4" fill="#283737"><title>1281: Subtract the Product and Sum of Digits of an Integer — Easy — UNSOLVED</title></rect>
+<rect x="524.25" y="91.75" width="4" height="4" fill="#1cbaba"><title>1281: Subtract the Product and Sum of Digits of an Integer — Easy — SOLVED</title></rect>
 <rect x="529.25" y="91.75" width="4" height="4" fill="#3a3426"><title>1282: Group the People Given the Group Size They Belong To — Medium — UNSOLVED</title></rect>
 <rect x="534.25" y="91.75" width="4" height="4" fill="#3a3426"><title>1283: Find the Smallest Divisor Given a Threshold — Medium — UNSOLVED</title></rect>
 <rect x="539.25" y="91.75" width="4" height="4" fill="#3a2929"><title>1284: Minimum Number of Flips to Convert Binary Matrix to Zero Matrix — Hard — UNSOLVED</title></rect>
@@ -1534,7 +1534,7 @@
 <rect x="524.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1509: Minimum Difference Between Largest and Smallest Value in Three Moves — Medium — UNSOLVED</title></rect>
 <rect x="529.25" y="101.75" width="4" height="4" fill="#3a2929"><title>1510: Stone Game IV — Hard — UNSOLVED</title></rect>
 <rect x="534.25" y="101.75" width="4" height="4" fill="#283737"><title>1511: Customer Order Frequency — Easy — UNSOLVED</title></rect>
-<rect x="539.25" y="101.75" width="4" height="4" fill="#283737"><title>1512: Number of Good Pairs — Easy — UNSOLVED</title></rect>
+<rect x="539.25" y="101.75" width="4" height="4" fill="#1cbaba"><title>1512: Number of Good Pairs — Easy — SOLVED</title></rect>
 <rect x="544.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1513: Number of Substrings With Only 1s — Medium — UNSOLVED</title></rect>
 <rect x="549.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1514: Path with Maximum Probability — Medium — UNSOLVED</title></rect>
 <rect x="554.25" y="101.75" width="4" height="4" fill="#3a2929"><title>1515: Best Position for a Service Centre — Hard — UNSOLVED</title></rect>
@@ -1594,7 +1594,7 @@
 <rect x="824.25" y="101.75" width="4" height="4" fill="#3a2929"><title>1569: Number of Ways to Reorder Array to Get Same BST — Hard — UNSOLVED</title></rect>
 <rect x="829.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1570: Dot Product of Two Sparse Vectors — Medium — UNSOLVED</title></rect>
 <rect x="834.25" y="101.75" width="4" height="4" fill="#283737"><title>1571: Warehouse Manager — Easy — UNSOLVED</title></rect>
-<rect x="839.25" y="101.75" width="4" height="4" fill="#283737"><title>1572: Matrix Diagonal Sum — Easy — UNSOLVED</title></rect>
+<rect x="839.25" y="101.75" width="4" height="4" fill="#1cbaba"><title>1572: Matrix Diagonal Sum — Easy — SOLVED</title></rect>
 <rect x="844.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1573: Number of Ways to Split a String — Medium — UNSOLVED</title></rect>
 <rect x="849.25" y="101.75" width="4" height="4" fill="#3a3426"><title>1574: Shortest Subarray to be Removed to Make Array Sorted — Medium — UNSOLVED</title></rect>
 <rect x="854.25" y="101.75" width="4" height="4" fill="#3a2929"><title>1575: Count All Possible Routes — Hard — UNSOLVED</title></rect>
@@ -1710,7 +1710,7 @@
 <rect x="834.25" y="106.75" width="4" height="4" fill="#3a3426"><title>1685: Sum of Absolute Differences in a Sorted Array — Medium — UNSOLVED</title></rect>
 <rect x="839.25" y="106.75" width="4" height="4" fill="#3a3426"><title>1686: Stone Game VI — Medium — UNSOLVED</title></rect>
 <rect x="844.25" y="106.75" width="4" height="4" fill="#3a2929"><title>1687: Delivering Boxes from Storage to Ports — Hard — UNSOLVED</title></rect>
-<rect x="849.25" y="106.75" width="4" height="4" fill="#283737"><title>1688: Count of Matches in Tournament — Easy — UNSOLVED</title></rect>
+<rect x="849.25" y="106.75" width="4" height="4" fill="#1cbaba"><title>1688: Count of Matches in Tournament — Easy — SOLVED</title></rect>
 <rect x="854.25" y="106.75" width="4" height="4" fill="#3a3426"><title>1689: Partitioning Into Minimum Number Of Deci-Binary Numbers — Medium — UNSOLVED</title></rect>
 <rect x="859.25" y="106.75" width="4" height="4" fill="#3a3426"><title>1690: Stone Game VII — Medium — UNSOLVED</title></rect>
 <rect x="864.25" y="106.75" width="4" height="4" fill="#3a2929"><title>1691: Maximum Height by Stacking Cuboids  — Hard — UNSOLVED</title></rect>
