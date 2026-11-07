@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">200 of 4082 solved. Easy 149/971, Medium 48/2128, Hard 3/983. 12 explained.</desc>
+<desc id="desc">201 of 4082 solved. Easy 150/971, Medium 48/2128, Hard 3/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
-<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="19.1224 124.6165"/>
+<path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#1cbaba" stroke-width="6" stroke-linecap="round" stroke-dasharray="19.2507 124.6165"/>
 <rect x="249.5" y="36.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="58.25" fill="#1cbaba" font-size="14.5">Easy</text>
-<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">149/971</text>
+<text x="303.5" y="79.25" fill="#f2f2f2" font-size="15.3">150/971</text>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#58491f" stroke-width="6" stroke-linecap="round"/>
 <path d="M 64.646 64.646 A 85 85 0 0 1 178.242 58.693" fill="none" stroke="#ffb800" stroke-width="6" stroke-linecap="round" stroke-dasharray="2.8109 124.6165"/>
 <rect x="249.5" y="99.75" width="108" height="53" rx="7" fill="#333333"/>
@@ -18,7 +18,7 @@
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
 <text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">3/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">200</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">201</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -3397,7 +3397,7 @@
 <rect x="719.25" y="181.75" width="4" height="4" fill="#3a3426"><title>3372: Maximize the Number of Target Nodes After Connecting Trees I — Medium — UNSOLVED</title></rect>
 <rect x="724.25" y="181.75" width="4" height="4" fill="#3a2929"><title>3373: Maximize the Number of Target Nodes After Connecting Trees II — Hard — UNSOLVED</title></rect>
 <rect x="729.25" y="181.75" width="4" height="4" fill="#3a2929"><title>3374: First Letter Capitalization II — Hard — UNSOLVED</title></rect>
-<rect x="734.25" y="181.75" width="4" height="4" fill="#283737"><title>3375: Minimum Operations to Make Array Values Equal to K — Easy — UNSOLVED</title></rect>
+<rect x="734.25" y="181.75" width="4" height="4" fill="#1cbaba"><title>3375: Minimum Operations to Make Array Values Equal to K — Easy — SOLVED</title></rect>
 <rect x="739.25" y="181.75" width="4" height="4" fill="#3a3426"><title>3376: Minimum Time to Break Locks I — Medium — UNSOLVED</title></rect>
 <rect x="744.25" y="181.75" width="4" height="4" fill="#3a3426"><title>3377: Digit Operations to Make Two Integers Equal — Medium — UNSOLVED</title></rect>
 <rect x="749.25" y="181.75" width="4" height="4" fill="#3a2929"><title>3378: Count Connected Components in LCM Graph — Hard — UNSOLVED</title></rect>
