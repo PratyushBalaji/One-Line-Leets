@@ -11,4 +11,4 @@
 
 class Solution(object):
     def maxCoins(self, piles):
-        return sum(i for x, i in enumerate(sorted(piles)[len(piles)//3:]) if x%2==0)
+        return sum(sorted(piles)[len(piles)//3::2])
