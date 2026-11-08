@@ -10,3 +10,6 @@
 class Solution(object):
     def minOperations(self, n):
         return (lambda m: m*(m-n%2))((n+1)//2)
+
+        # Beats 100% in runtime and memory!
+        # return (lambda m: m*(m+(n&1)))(n//2)
