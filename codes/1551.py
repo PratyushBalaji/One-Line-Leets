@@ -6,7 +6,7 @@
 
 # https://leetcode.com/problems/minimum-operations-to-make-array-equal/
 
-# Beats 100% in memory!
+# Beats 100% in runtime and 90% in memory!
 class Solution(object):
     def minOperations(self, n):
-        return sum(2*i + (1 - n%2) for i in range((n+1)//2))
+        return (lambda m: m*(m-n%2))((n+1)//2)
