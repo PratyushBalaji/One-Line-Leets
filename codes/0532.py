@@ -7,6 +7,7 @@
 
 # https://leetcode.com/problems/k-diff-pairs-in-an-array/
 
+# Beats 100% in memory!
 class Solution(object):
     def findPairs(self, nums, k):
-        return (lambda s: sum(1 for i in range(len(s)-1) for j in range(i+1, len(s)) if abs(s[i]-s[j]) == k) if k!=0 else sum(1 for i in s if nums.count(i) > 1))(list(set(nums)))
+        return (lambda s: sum(1 for i in s if nums.count(i) > 1) if k == 0 else sum((1 if i+k in s else 0)+(1 if i-k in s else 0)-(1 if i+k == i-k else 0) for i in s) // 2)(set(nums))
