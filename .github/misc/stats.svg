@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="252.5" viewBox="0 0 1000 252.5" role="img" aria-labelledby="title desc">
 <title id="title">One-line LeetCode solutions</title>
-<desc id="desc">220 of 4082 solved. Easy 155/971, Medium 62/2128, Hard 3/983. 12 explained.</desc>
+<desc id="desc">221 of 4082 solved. Easy 155/971, Medium 62/2128, Hard 4/983. 12 explained.</desc>
 <rect width="1000" height="252.5" rx="14" fill="#262626"/>
 <g font-family="Helvetica, Arial, sans-serif" text-anchor="middle">
 <path d="M 64.646 184.854 A 85 85 0 0 1 58.693 71.258" fill="none" stroke="#234747" stroke-width="6" stroke-linecap="round"/>
@@ -14,11 +14,11 @@
 <text x="303.5" y="121.25" fill="#ffb800" font-size="14.5">Medium</text>
 <text x="303.5" y="142.25" fill="#f2f2f2" font-size="15.3">62/2128</text>
 <path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#572b2b" stroke-width="6" stroke-linecap="round"/>
-<path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#f63737" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.3803 124.6165"/>
+<path d="M 184.854 64.646 A 85 85 0 0 1 190.807 178.242" fill="none" stroke="#f63737" stroke-width="6" stroke-linecap="round" stroke-dasharray="0.5071 124.6165"/>
 <rect x="249.5" y="162.75" width="108" height="53" rx="7" fill="#333333"/>
 <text x="303.5" y="184.25" fill="#f63737" font-size="14.5">Hard</text>
-<text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">3/983</text>
-<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">220</tspan><tspan font-size="17">/4082</tspan></text>
+<text x="303.5" y="205.25" fill="#f2f2f2" font-size="15.3">4/983</text>
+<text x="124.75" y="116.75" fill="#f5f5f5"><tspan font-size="36.5">221</tspan><tspan font-size="17">/4082</tspan></text>
 <text x="124.75" y="142.75" fill="#f5f5f5" font-size="17.8"><tspan fill="#00b333">✓ </tspan>one-liners</text>
 <text x="124.75" y="211.75" fill="#a6a6a6" font-size="15.3">12 Explained</text>
 </g>
@@ -3203,7 +3203,7 @@
 <rect x="889.25" y="171.75" width="4" height="4" fill="#283737"><title>3178: Find the Child Who Has the Ball After K Seconds — Easy — UNSOLVED</title></rect>
 <rect x="894.25" y="171.75" width="4" height="4" fill="#3a3426"><title>3179: Find the N-th Value After K Seconds — Medium — UNSOLVED</title></rect>
 <rect x="899.25" y="171.75" width="4" height="4" fill="#3a3426"><title>3180: Maximum Total Reward Using Operations I — Medium — UNSOLVED</title></rect>
-<rect x="904.25" y="171.75" width="4" height="4" fill="#3a2929"><title>3181: Maximum Total Reward Using Operations II — Hard — UNSOLVED</title></rect>
+<rect x="904.25" y="171.75" width="4" height="4" fill="#f63737"><title>3181: Maximum Total Reward Using Operations II — Hard — SOLVED</title></rect>
 <rect x="909.25" y="171.75" width="4" height="4" fill="#3a3426"><title>3182: Find Top Scoring Students — Medium — UNSOLVED</title></rect>
 <rect x="914.25" y="171.75" width="4" height="4" fill="#3a3426"><title>3183: The Number of Ways to Make the Sum — Medium — UNSOLVED</title></rect>
 <rect x="919.25" y="171.75" width="4" height="4" fill="#283737"><title>3184: Count Pairs That Form a Complete Day I — Easy — UNSOLVED</title></rect>
