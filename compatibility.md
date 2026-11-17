@@ -33,6 +33,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [2527](codes/2527.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2559](codes/2559.py) | >= 3.2              | `accumulate()` | No Alternative  |
 | [2574](codes/2574.py) | >= 3.2              | `accumulate()` | No Alternative  |
+| [2595](codes/2595.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2708](codes/2708.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2732](codes/2732.py) | <= 2.7              | Indexing `dict.keys()` and `dict.values()` | Wrap views with `list()` |
 | [2788](codes/2788.py) | <= 2.7              | `reduce()` | `functools`  |
