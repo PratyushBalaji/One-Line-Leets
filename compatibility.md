@@ -12,6 +12,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 |-----------------------|---------------------|------------|--------------|
 | [0136](codes/0136.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0198](codes/0198.py) | <= 2.7              | `reduce()` | `functools`  |
+| [0213](codes/0213.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0217](codes/0217.py) | <= 2.7              | `filter()` returns a list | `any()` in Python 3 |
 | [0268](codes/0268.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0389](codes/0389.py) | <= 2.7              | `reduce()` | `functools`  |
