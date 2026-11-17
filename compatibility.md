@@ -10,6 +10,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 
 | Problem Number        | Version Requirement | Reason     | Alternative? |
 |-----------------------|---------------------|------------|--------------|
+| [0091](codes/0091.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0136](codes/0136.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0198](codes/0198.py) | <= 2.7              | `reduce()` | `functools`  |
 | [0213](codes/0213.py) | <= 2.7              | `reduce()` | `functools`  |
