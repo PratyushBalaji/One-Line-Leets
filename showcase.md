@@ -23,6 +23,16 @@ Beats 100% in memory!
 
 ## Solutions I find interesting :
 
+### Problem [#0091](https://leetcode.com/problems/decode-ways/) - Decode Ways
+
+`return sum(reduce(lambda x, n: (lambda t: [(t if n == 1 else 0), (t if n == 2 else 0), (t if 3 <= n <= 9 else 0) + x[0] + (x[1] if 0 <= n <= 6 else 0)])(sum(x)), map(int, list(s)), [0,0,1]))`
+
+I like this solution as it packs a dynamic programming solution into a single reduce! I realised the DP construction only ever needed the preceding row to generate the subsequent one, so the whole table became an array that overwrites itself, leaving a single three-element state that gets updated for every ingested digit.
+
+That *reduces* (haha) the problem into a single fold! The `reduce()` carries the state through the string, while the inner lambda stores its total so we don't recompute it for every column.
+
+Beats 100% in both runtime and memory! I've written out the progression from the original DP table to this expression in the [explanation](./explanations/0091.md). The same three-state structure also carries over to [Decode Ways II](./codes/0639.py), with extra transitions for `*`.
+
 ### Problem [#0319](https://leetcode.com/problems/bulb-switcher/) - Bulb Switcher
 
 `return int(n**0.5)`
