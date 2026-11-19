@@ -13,7 +13,10 @@
 
 # https://leetcode.com/problems/build-an-array-with-stack-operations/
 
-# Beats 100% in runtime!
+# Beats 100% in runtime and is a lot more memory efficient
 class Solution(object):
     def buildArray(self, target, n):
-        return reduce(lambda x,y: (x[0] + ["Push"], x[1]+1) if target[x[1]] == y else (x[0] + ["Push","Pop"], x[1]), range(1, target[-1]+1),([],0))[0]
+        return reduce(lambda x,y: (x[0] + ["Push","Pop"]*(y-x[1]-1) + ["Push"], y), target, ([],0))[0]
+
+# Original solution: Beats 100% in runtime!
+# return reduce(lambda x,y: (x[0] + ["Push"], x[1]+1) if target[x[1]] == y else (x[0] + ["Push","Pop"], x[1]), range(1, target[-1]+1),([],0))[0]
