@@ -37,6 +37,7 @@ Programs that use version-specific syntax will likely have a comment in the solu
 | [1817](codes/1817.py) | <= 2.7              | `reduce()` | `functools`  |
 | [1833](codes/1833.py) | <= 2.7              | `reduce()` and tuple unpacking in lambda | `functools` and index tuple inside lambda or unpack with `:=` |
 | [1835](codes/1835.py) | <= 2.7              | `reduce()` | `functools`  |
+| [1899](codes/1899.py) | <= 2.7              | `zip()` returns an indexable list | Wrap `zip()` with `list()` in Python 3 |
 | [2038](codes/2038.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2248](codes/2248.py) | <= 2.7              | `reduce()` | `functools`  |
 | [2295](codes/2295.py) | <= 2.7              | `reduce()` | `functools`  |
